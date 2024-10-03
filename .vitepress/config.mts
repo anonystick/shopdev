@@ -44,7 +44,7 @@ export default defineConfig({
     ],
 
     sidebar: {
-      GolangSidebar: [
+      "/golang/": [
         {
           text: 'Golang Ecommerce',
           items: [
@@ -54,7 +54,7 @@ export default defineConfig({
           ]
         }
       ],
-      JavaSidebar: [
+      "/java/": [
         {
           text: 'Java Ecommerce',
           items: [

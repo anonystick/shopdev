@@ -1,5 +1,5 @@
 ---
-outline: GolangSidebar
+outline: deep
 ---
 
 # Go 21 - User Registration
