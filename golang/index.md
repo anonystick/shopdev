@@ -2,6 +2,42 @@
 outline: deep
 ---
 
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers
+} from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Evan You',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  ...
+]
+</script>
+
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>
+      Our Team
+    </template>
+    <template #lead>
+      The development of VitePress is guided by an international
+      team, some of whom have chosen to be featured below.
+    </template>
+  </VPTeamPageTitle>
+  <VPTeamMembers
+    :members="members"
+  />
+</VPTeamPage>
+
 # Go Backend - Giới thiệu về dự án ShopDEVGO
 
 Khi nói đến việc phát triển ứng dụng web, ngôn ngữ lập trình Go (hay Golang) đã nhanh chóng trở thành lựa chọn hàng đầu cho nhiều công ty công nghệ. Go được thiết kế bởi Google với cú pháp đơn giản và hiệu suất cao, giúp việc phát triển và bảo trì ứng dụng trở nên dễ dàng hơn.
