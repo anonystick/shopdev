@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Go Backend
-      link: golang/section-24-api
+      link: golang/index
     - theme: alt
       text: Java Backend
       link: java/section-24-api
