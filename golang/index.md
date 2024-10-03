@@ -4,24 +4,18 @@ outline: deep
 
 # Go Backend - Giới thiệu về dự án ShopDEVGO
 
-Nếu bạn là một lập trình viên or đang tiến tới con đường lập trình thì Go là ngôn ngữ lập trình giúp dễ dàng xây dựng phần mềm đơn giản cho đến phức tạp, nhưng rất đáng tin cậy và hiệu quả. Vì sao? Trước tiên hãy nếu một số lý do với `Go` So với các ngôn ngữ lập trình khác, thì ngôn ngữ Go (trên home go) có những ưu điểm sau:
+Khi nói đến việc phát triển ứng dụng web, ngôn ngữ lập trình Go (hay Golang) đã nhanh chóng trở thành lựa chọn hàng đầu cho nhiều công ty công nghệ. Go được thiết kế bởi Google với cú pháp đơn giản và hiệu suất cao, giúp việc phát triển và bảo trì ứng dụng trở nên dễ dàng hơn.
 
-1. Đơn giản, nhanh chóng và an toàn
-2. Mã nguồn mở
-3. Quản lý bộ nhớ tốt hiệu quả cao và quan trọng tốc độ biên dịch.
+Một trong những lý do chính khiến ShopDEVGO chọn Go là hiệu suất. Go biên dịch trực tiếp thành mã máy, mang lại tốc độ thực thi nhanh hơn so với nhiều ngôn ngữ khác như Java hay Node.js. Điều này có nghĩa là ứng dụng có thể xử lý hàng nghìn kết nối đồng thời mà không gặp phải tắc nghẽn, điều này đặc biệt quan trọng trong môi trường thương mại điện tử.
 
-Các ứng dụng được phát triển bằng ngôn ngữ Go chạy cực kỳ hiệu quả, tương tự như Java hoặc C++. Sau khi thử nghiệm, Go nhìn chung nhanh hơn Python 30 lần. Về đa luồng, Go sử dụng Goroutine và Channels, về cơ bản là coroutine. Chi phí để tạo Goroutines chỉ từ 4 đến 5KB dung lượng bộ nhớ heap và có thể mở rộng linh hoạt.
+So với Java, Go mang lại hiệu suất tốt hơn với cú pháp đơn giản hơn, giúp đội ngũ phát triển tiết kiệm thời gian hơn trong việc triển khai và bảo trì. Java có ưu điểm về tính ổn định và khả năng tương thích đa nền tảng, nhưng thường gặp phải độ phức tạp cao hơn. Còn với Node.js, trong khi Node lý tưởng cho các ứng dụng bất đồng bộ, Go vượt trội hơn về khả năng xử lý đồng thời, giúp tăng cường hiệu suất cho các dịch vụ đòi hỏi tài nguyên lớn.
 
-Nhờ cơ chế thu gom rác của ngôn ngữ Go, chi phí thấp và các tính năng linh hoạt cao giúp ngôn ngữ Go có thể đạt được tính đồng thời cao. Chỉ khi đạt được tính đồng thời cao, ngôn ngữ này mới có thể đáp ứng được số lượng lớn yêu cầu của khách hàng và xử lý dữ liệu hiện nay và trong tương lai.
+Nhiều công ty lớn như Google, Dropbox và Uber đã chọn Go cho các dịch vụ của họ. Sự hỗ trợ từ các tập đoàn này đã làm tăng sức hút của Go trong cộng đồng lập trình viên. Hệ sinh thái phong phú với nhiều thư viện và công cụ hỗ trợ giúp cho việc phát triển ứng dụng trở nên thuận tiện và hiệu quả hơn.
 
-Ngôn ngữ Go không chỉ hoạt động tốt với cơ sở dữ liệu quan hệ truyền thống `MYSQL` mà còn hoạt động tốt với các cơ sở dữ liệu như `Redis, RabbitMQ và PostgreSQL`.
+Trong tương lai, nhu cầu về lập trình viên Go sẽ tiếp tục gia tăng khi ngày càng nhiều công ty chuyển sang xây dựng các ứng dụng vi mô và dịch vụ có khả năng xử lý đồng thời tốt hơn. Cộng đồng lập trình viên Go đang phát triển mạnh mẽ, cung cấp nhiều tài nguyên học tập và hỗ trợ, tạo điều kiện thuận lợi cho các lập trình viên muốn tìm kiếm cơ hội việc làm trong lĩnh vực này.
 
-Về tốc độ biên dịch, chỉ mất khoảng 6 giây để biên dịch microservice lớn nhất được triển khai bằng ngôn ngữ Go bằng máy tính có cấu hình phổ thông.
+Dự án ShopDEVGO không chỉ là một ứng dụng thương mại điện tử, mà còn là cơ hội để bạn trải nghiệm và phát triển với một trong những ngôn ngữ lập trình tiềm năng nhất hiện nay. Hãy tham gia cùng chúng tôi để khám phá sức mạnh của Go và xây dựng tương lai của thương mại điện tử!
 
-Những điều trên chưa thể hiện hết ưu điểm của ngôn ngữ Go Nhiều người gọi ngôn ngữ Go là “ngôn ngữ C của thế kỷ 21” vì Go không chỉ có tính đơn giản và hiệu suất của C mà còn cung cấp giải pháp tốt cho môi trường Internet. của thế kỷ 21. Nhiều tính năng thực tế khác nhau của phát triển phía máy chủ cho phép các nhà phát triển dễ dàng đạt được những gì họ muốn ở cấp độ ngôn ngữ. 
-
-Dựa trên đó, chúng ta sẽ bắt đầu từ con số 0 để nói về ngôn ngữ Go và giải thích các kỹ năng cơ bản, các kịch bản ứng dụng điển hình, so sánh lợi thế và nhiều khía cạnh khác của ngôn ngữ Go từ nông cạn đến sâu hơn để giúp bạn có được khả năng phát triển cốt lõi của ngôn ngữ Go.
-Và sau đó kế tiếp chúng ta sẽ triển khai phần nâng cao, mỗi lập trình viên go sẽ có thể tự hoàn thành một dự án cho bản thân mình đó là hệ thống eCommerce backend.
 
 ## Dành cho ai?
 
