@@ -17,11 +17,11 @@ export default defineConfig({
     },
     // docFooter
     docFooter: {
-      prev: "label previous",
-      next: "label next",
+      prev: "bài trước",
+      next: "bài iếp theo",
     },
-    darkModeSwitchLabel: "lightMNode",
-    returnToTopLabel: "Up",
+    darkModeSwitchLabel: "sáng/tối",
+    returnToTopLabel: "lên đầu",
     search: {
       provider: "local",
     },
