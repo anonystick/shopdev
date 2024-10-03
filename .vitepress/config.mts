@@ -47,12 +47,23 @@ export default defineConfig({
       {
         text: 'Golang Ecommerce',
         items: [
+          { text: 'Bài 1', link: '/go/bai1' },
+          { text: 'Bài 2', link: '/go/bai2' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
+      },
+      {
+        text: 'Java Ecommerce',
+        items: [
+          { text: 'Bài 1', link: '/java/bai1' },
+          { text: 'Bài 2', link: '/java/bai2' },
+          { text: 'Markdown Examples', link: '/markdown-examples-java' },
+          { text: 'Runtime API Examples', link: '/api-examples-java' }
+        ]
       }
     ],
-
+    
     socialLinks: [
       { icon: 'github', link: 'https://github.com/anonystick' }
     ],
