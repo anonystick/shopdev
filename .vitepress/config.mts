@@ -1,20 +1,18 @@
-import { defineConfig, HeadConfig } from 'vitepress'
+import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  transformHead: ({ pageData }) => {
-    const head: HeadConfig[] = []
-
-    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
-    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
-    head.push(['meta', { property: 'og:image', content: pageData.frontmatter.image }])
-    
-    return head
-  },
   title: "Shop Ecommerce Backend",
   description: "Con đường đi tới lập trình viên Backend",
   // header
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ['meta', { name: 'keywords', content: 'java, golang, nodejs, backend, ecommerce' }],
+    ['meta', { name: 'description', content: 'Con đường đi tới lập trình viên Backend' }],
+    ['meta', { property: 'og:title', content: 'Shop Ecommerce Backend' }],
+    ['meta', { property: 'og:description', content: 'Triển khai một hệ thống thương mại từ a-z bao gồm các công nghệ backend như aws, rabbitmq, kafka, elasticsearch...' }],
+    ['meta', { property: 'og:image', content: '/path-to-image.png' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 
