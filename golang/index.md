@@ -20,4 +20,7 @@ Dự án ShopDEVGO không chỉ là một ứng dụng thương mại điện t�
 ## Dành cho ai?
 
 ## Học được gì?
+Trong hệ thống `Con đường tiến tới Go` thì chúng ta sẽ đi hai chặng đường, chặng một (Dành cho level 0, 1 của go) là bằng cách nghiên cứu bài viết và xem video thực hành, bạn sẽ hình thành hệ thống kiến ​​thức cốt lõi của ngôn ngữ Go: cú pháp cơ bản, hàm, `struct`, `interface`, `package`, đồng thời và phản chiếu, đồng thời có thể sử dụng các khả năng kỹ thuật này để triển khai các hàm tạo mà chính ngôn ngữ Go thực hiện không có, phương thức và thuộc tính kế thừa.
+Trong mỗi phần, chúng ta sẽ cố gắng đọc cơ bản ở các bài viết và cũng như xem các video thực hành cho thực tế với cách sử dụng cơ bản nhất, dần dần đi sâu hơn và giải thích các tình huống sử dụng điển hình cũng như cách sử dụng tốt nhất.
 
+Sau đó là phần nâng cao (Dành cho level > 2 của go) mỗi cá nhân sẽ được trang bị mọi công nghệ của backend kết hợp với go để tạo nên một project eCommerce thực tế ở CẤP ĐỘ DOANH NGHIỆP.
