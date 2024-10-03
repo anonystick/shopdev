@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Shop Ecommerce Backend",
-  description: "For Backend",
+  description: "Con đường đi tới lập trình viên Backend",
   // header
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 
-    logo: "/logo.svg",
+    logo: "/logo.jpeg",
     // outline
     outline: {
       level: [2, 6],
