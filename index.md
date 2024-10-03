@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Bắt đầu
-      link: /markdown-examples
+      link: golang/section-24-api
     - theme: alt
       text: Triển khai microservice
       link: /api-examples
