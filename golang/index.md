@@ -11,12 +11,20 @@ import {
 
 const members = [
   {
-    avatar: 'https://www.github.com/yyx990803.png',
+    avatar: 'https://avatars.githubusercontent.com/u/48472372?v=4',
     name: 'Anonystick',
     title: 'Creator',
     links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+      { icon: 'github', link: 'https://github.com/anonystick' }
+      { icon: 'blog', link: 'https://anonystick.com' }
+    ]
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/48472372?v=4',
+    name: 'JunYue',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' }
     ]
   }
 ]
@@ -25,11 +33,10 @@ const members = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      Our Team
+      DEVs tham gia phát triển dự án Golang Documentation API
     </template>
     <template #lead>
-      The development of VitePress is guided by an international
-      team, some of whom have chosen to be featured below.
+      Chịu trách nhiệm các bài giảng về Go Backend
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
