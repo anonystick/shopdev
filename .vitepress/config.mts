@@ -7,10 +7,6 @@ export default defineConfig({
   // header
   head: [
     ['meta', { name: 'keywords', content: 'java, golang, nodejs, backend, ecommerce' }],
-    ['meta', { name: 'description', content: 'Con đường đi tới lập trình viên Backend' }],
-    ['meta', { property: 'og:title', content: 'Shop Ecommerce Backend' }],
-    ['meta', { property: 'og:description', content: 'Triển khai một hệ thống thương mại từ a-z bao gồm các công nghệ backend như aws, rabbitmq, kafka, elasticsearch...' }],
-    ['meta', { property: 'og:image', content: '/path-to-image.png' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
