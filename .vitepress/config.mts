@@ -46,17 +46,19 @@ export default defineConfig({
     sidebar: {
       "/golang/": [
         {
-          text: 'Golang Ecommerce',
+          text: 'Golang Backend Ecommerce',
           items: [
-            { text: 'Bài 1', link: '/go/bai1' },
-            { text: 'Bài 2', link: '/go/bai2' },
+            { text: 'Go 24: [User Login Interface] - Registration', link: '/go/go-24' },
+            { text: 'Go 25: [User Login Interface] - VerifyOTP', link: '/go/go-25' },
+            { text: 'Go 26: [User Login Interface] - Update Password Register', link: '/go/go-26' },
+            { text: 'Go 27: [User Login Interface] - Login and Token', link: '/go/go-27' },
             // ... các mục khác
           ]
         }
       ],
       "/java/": [
         {
-          text: 'Java Ecommerce',
+          text: 'Java Backend Ecommerce',
           items: [
             { text: 'Bài 1', link: '/java/bai1' },
             { text: 'Bài 2', link: '/java/bai2' },
