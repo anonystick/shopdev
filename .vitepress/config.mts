@@ -30,7 +30,7 @@ export default defineConfig({
       copyright: "Copyright © 2024-present Anonystick Golang",
     },
     lastUpdated: {
-      text: "Updated at",
+      text: "Cập nhật",
       formatOptions: {
           dateStyle: "full",
           timeStyle: "medium",
@@ -48,10 +48,10 @@ export default defineConfig({
         {
           text: 'Golang Backend Ecommerce',
           items: [
-            { text: 'Go 24: [User Login Interface] - Registration', link: '/go/go-24' },
-            { text: 'Go 25: [User Login Interface] - VerifyOTP', link: '/go/go-25' },
-            { text: 'Go 26: [User Login Interface] - Update Password Register', link: '/go/go-26' },
-            { text: 'Go 27: [User Login Interface] - Login and Token', link: '/go/go-27' },
+            { text: 'Go 24: [User Login Interface] - Registration', link: '/golang/go-24' },
+            { text: 'Go 25: [User Login Interface] - VerifyOTP', link: '/golang/go-25' },
+            { text: 'Go 26: [User Login Interface] - Update Password Register', link: '/golang/go-26' },
+            { text: 'Go 27: [User Login Interface] - Login and Token', link: '/golang/go-27' },
             // ... các mục khác
           ]
         }
