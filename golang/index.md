@@ -15,7 +15,7 @@ const members = [
     name: 'Anonystick',
     title: 'Creator',
     links: [
-      { icon: 'github', link: 'https://github.com/anonystick' }
+      { icon: 'github', link: 'https://github.com/anonystick' },
       { icon: 'blog', link: 'https://anonystick.com' }
     ]
   },
