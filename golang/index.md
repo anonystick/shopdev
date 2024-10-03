@@ -26,7 +26,7 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' }
     ]
-  }
+  },
 ]
 </script>
 
@@ -39,9 +39,7 @@ const members = [
       Chịu trách nhiệm các bài giảng về Go Backend
     </template>
   </VPTeamPageTitle>
-  <VPTeamMembers
-    :members="members"
-  />
+ <VPTeamMembers size="small" :members="members" />
 </VPTeamPage>
 
 # Go Backend - Giới thiệu về dự án ShopDEVGO
