@@ -8,14 +8,17 @@ hero:
   tagline: Xây dựng hệ thống e-Commerce thông qua ba ngôn ngữ, JAVA, GO, NODE.js và nhiều stacks công nghệ khác như AWS, Elasticsearch, RabbitMQ, Kafka, Nginx, Redis...
   actions:
     - theme: brand
-      text: Bắt đầu
+      text: Go Backend
       link: golang/section-24-api
     - theme: alt
-      text: Triển khai microservice
-      link: /api-examples
+      text: Java Backend
+      link: java/section-24-api
     - theme: alt
-      text: Bí kíp
-      link: /api-examples
+      text: Nodejs Backend
+      link: nodejs/section-24-api
+    - theme: alt
+      text: Công nghệ tham gia Backend
+      link: tech/section-24-api  
 
 features:
   - title: Hệ thống e-Commerce
