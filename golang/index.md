@@ -58,10 +58,34 @@ Dự án ShopDEVGO không chỉ là một ứng dụng thương mại điện t�
 
 
 ## Dành cho ai?
+**Backend Developers muốn chuyển đổi sang Go** :
+- Đã có sẵn kiến thức nền, kiến thức cơ bản về ngôn ngữ Go.
+- Đã coi qua các video về Nodejs ở hội viên hoặc hơn hết đã hiểu biết về Java, Python,v.v.
+
+**Go Enthusiasts** :
+- Những người có đam mê và có kinh nghiệm cơ bản về Go, muốn đào sâu hơn vào việc sử dụng Go trong hệ thống **eCommerce** Và **Microservice**.
 
 ## Học được gì?
-Trong hệ thống `Con đường tiến tới Go` thì chúng ta sẽ đi hai chặng đường, chặng một (Dành cho level 0, 1 của go) là bằng cách nghiên cứu bài viết và xem video thực hành, bạn sẽ hình thành hệ thống kiến ​​thức cốt lõi của ngôn ngữ Go: cú pháp cơ bản và các tính năng trong Go, bao gồm hàm, struct, interface, package, đồng thời (concurrency) và phản chiếu (reflection)...
 
-Trong mỗi phần, chúng ta sẽ cố gắng đọc cơ bản ở các bài viết và cũng như xem các video thực hành cho thực tế với cách sử dụng cơ bản nhất, dần dần đi sâu hơn và giải thích các tình huống sử dụng điển hình cũng như cách sử dụng tốt nhất.
+Trong hệ thống `Con đường tiến tới Go`, chúng ta sẽ đi qua hai chặng đường:
 
-Sau đó là phần nâng cao (Dành cho level > 2 của go) mỗi cá nhân sẽ được trang bị mọi công nghệ của backend kết hợp với go để tạo nên một project eCommerce thực tế ở CẤP ĐỘ DOANH NGHIỆP.
+1. **Chặng một** (Dành cho level 0, 1 của Go): Bằng cách nghiên cứu bài viết và xem video thực hành, bạn sẽ hình thành hệ thống kiến thức cốt lõi của ngôn ngữ Go. Cụ thể, bạn sẽ hiểu biết về cú pháp cơ bản và các tính năng quan trọng trong Go, bao gồm:
+
+    - Functions.
+    - Struct.
+    - Interfaces.
+    - Packages.
+    - Concurrency.
+    - Reflection.
+
+    Trong mỗi phần, chúng ta sẽ học từ những kiến thức cơ bản qua các bài viết và video thực hành. Bạn sẽ hiểu cách sử dụng Go trong các tình huống thực tế, cùng với việc giải thích cách dùng tốt nhất cho từng trường hợp.
+
+2. **Chặng 2 phần nâng cao** (Dành cho level > 2 của Go): Ở giai đoạn này, bạn sẽ tiếp cận mọi công nghệ backend kết hợp với Go để xây dựng một dự án eCommerce thực tế ở **Cấp độ doanh nghiệp**. Bạn sẽ học cách sử dụng các công cụ và công nghệ hiện đại như:
+   - **Redis**: Tìm hiểu và thiết lập Redis sentinel hoặc Cluster để đảm bảo tính sẵn sàng cao.
+   - **Mysql**: Tìm hiểu Mysql trong các hệ thống lớn với việc sử dụng Pool connection, tối ưu hóa các câu truy vấn SQL, và áp dụng kỹ thuật partitioning, sharding để xử lý dữ liệu quy mô lớn.
+   - **Docker**: Học cách tạo container cho ứng dụng Go, thiết lập môi trường phát triển sử dụng Docker Compose để quản lý nhiều dịch vụ như Redis, MySQL, Kafka cùng một lúc.
+   - **Kafka**.
+   - **Gin Framework**: Xây dựng API Restful với Gin, quản lý logging, xử lý lỗi, và Test Mocking.
+   - Triển khai hệ thống API phức tạp.
+   - Xử lý cơ sở dữ liệu quy mô lớn và các hệ thống phân tán (distributed systems).
+
