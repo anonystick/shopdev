@@ -12,13 +12,13 @@ hero:
       link: golang/index
     - theme: alt
       text: Java Backend
-      link: java/section-24-api
+      link: java/index
     - theme: alt
       text: Nodejs Backend
-      link: nodejs/section-24-api
+      link: nodejs/index
     - theme: alt
       text: Công nghệ tham gia Backend
-      link: tech/section-24-api  
+      link: tech/index
 
 # features:
 #   - title: Hệ thống e-Commerce
