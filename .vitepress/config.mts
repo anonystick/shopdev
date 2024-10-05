@@ -21,7 +21,7 @@ export default defineConfig({
     // docFooter
     docFooter: {
       prev: "bài trước",
-      next: "bài iếp theo",
+      next: "tiếp theo",
     },
     darkModeSwitchLabel: "sáng/tối",
     returnToTopLabel: "lên đầu",
@@ -43,7 +43,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Go Backend', link: '/golang' },
       { text: 'Java Backend', link: '/java' },
-      { text: 'Nodejs Backend', link: '/nodejs' }
+      { text: 'Nodejs Backend', link: '/node' }
     ],
 
     sidebar: {
@@ -63,9 +63,15 @@ export default defineConfig({
         {
           text: 'Java Backend Ecommerce',
           items: [
-            { text: 'Java 01: Vif sao', link: '/golang/go-24' },
-            { text: 'Bài 2', link: '/java/index' },
-            // ... các mục khác
+            { text: 'Java 01: JAVA được phát triển như thế nào?', link: '/java/java-01' },
+          ]
+        }
+      ],
+      "/node/": [
+        {
+          text: 'Node.js Backend Ecommerce',
+          items: [
+            { text: 'Node 01: Kiếm tiền ở độ tuổi Lập Trình thanh xuân và lời nhắn nhủ?', link: '/node/node-01' },
           ]
         }
       ],

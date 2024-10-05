@@ -15,7 +15,7 @@ hero:
       link: java/index
     - theme: alt
       text: Nodejs Backend
-      link: nodejs/index
+      link: node/index
     - theme: alt
       text: Công nghệ tham gia Backend
       link: tech/index
