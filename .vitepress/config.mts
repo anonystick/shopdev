@@ -4,14 +4,6 @@ import { defineConfig, HeadConfig } from 'vitepress'
 export default defineConfig({
   title: "Shop Ecommerce Backend",
   description: "Con đường đi tới lập trình viên Backend",
-  transformHead: ({ pageData }) => {
-    const head: HeadConfig[] = []
-
-    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
-    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
-    
-    return head
-  },
   // header
   head: [
     ['meta', { name: 'keywords', content: 'java, golang, nodejs, backend, ecommerce' }],
@@ -71,7 +63,8 @@ export default defineConfig({
         {
           text: 'Java Backend Ecommerce',
           items: [
-            { text: 'Java 01: Vì sao các công ty thường sử dụng JAVA', link: '/java/java-01' },
+            { text: 'Java 01: Vif sao', link: '/golang/go-24' },
+            { text: 'Bài 2', link: '/java/index' },
             // ... các mục khác
           ]
         }
