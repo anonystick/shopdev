@@ -52,10 +52,10 @@ export default defineConfig({
           text: 'Golang Backend Ecommerce',
           items: [
             { text: 'Go Basic: Những kiến thức cơ bản về Go cần phải nắm', link: '/golang/go-24' },
-            { text: 'Go 24: [User Login Interface] - Registration', link: '/golang/go-24' },
-            { text: 'Go 25: [User Login Interface] - VerifyOTP', link: '/golang/go-25' },
-            { text: 'Go 26: [User Login Interface] - Update Password Register', link: '/golang/go-26' },
-            { text: 'Go 27: [User Login Interface] - Login and Token', link: '/golang/go-27' },
+            { text: 'Go 29: [User Login Interface] - Registration', link: '/golang/go-29' },
+            { text: 'Go 30: [User Login Interface] - Triển khai Swagger, Open API', link: '/golang/go-30' },
+            { text: 'Go 31: [User Login Interface] - Verify OTP', link: '/golang/go-31' },
+            { text: 'Go 32: [User Login Interface] - Update Password Register', link: '/golang/go-32' },
             // ... các mục khác
           ]
         }
