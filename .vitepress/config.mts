@@ -56,6 +56,9 @@ export default defineConfig({
             { text: 'Go 30: [User Login Interface] - Triển khai Swagger, Open API', link: '/golang/go-30' },
             { text: 'Go 31: [User Login Interface] - Verify OTP', link: '/golang/go-31' },
             { text: 'Go 32: [User Login Interface] - Update Password Register', link: '/golang/go-32' },
+            { text: 'Go 33: [User Login Interface] - Login', link: '/golang/go-33' },
+            { text: 'Go 34: [User Login Interface] - Use Transaction in SQLC', link: '/golang/go-34' },
+            { text: 'Go 35: [User Login Interface] - Setup Two-Factor-Authentication Account', link: '/golang/go-35' },
             // ... các mục khác
           ]
         }
