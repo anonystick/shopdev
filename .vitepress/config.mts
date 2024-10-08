@@ -59,6 +59,10 @@ export default defineConfig({
             { text: 'Go 33: [User Login Interface] - Login', link: '/golang/go-33' },
             { text: 'Go 34: [User Login Interface] - Use Transaction in SQLC', link: '/golang/go-34' },
             { text: 'Go 35: [User Login Interface] - Setup Two-Factor-Authentication Account', link: '/golang/go-35' },
+            { text: 'Go 36: [User Login Interface] - Enable Two-Factor-Authentication Account', link: '/golang/go-36' },
+            { text: 'Go 37: [User Login Interface] - Dislable Two-Factor-Authentication Account', link: '/golang/go-37' },
+            { text: 'Go 38: [Sysem Application] - RateLimit với 3 tầng ứng dụng (Tính khả dụng)', link: '/golang/go-38' },
+            { text: 'Go 39: [Product Interface] - Hệ thống hàng hóa, nhu cầu, kiến trúc...', link: '/golang/go-39' },
             // ... các mục khác
           ]
         }
