@@ -72,6 +72,7 @@ export default defineConfig({
           text: 'Java Backend Ecommerce',
           items: [
             { text: 'Java 01: JAVA được phát triển như thế nào?', link: '/java/java-01' },
+            {text: 'JAVA cho người mới bắt đầu từ con số 0', link: '/java/java-basic'}
           ]
         }
       ],
