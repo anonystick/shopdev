@@ -316,4 +316,12 @@ Bạn cũng có thể swap value của variable khi sử dụng multiple assignm
 ```
 
 #
-...
+... Về các statement như ifelse for v.v thì các bạn tự tìm hiểu nha.
+
+Phần sau sẽ là tìm hiểu về ```Composite types```.
+Trong ```Composite types``` có :  
++ ```Array```.
++ ```Slices```.
++ ```String Internals```.
++ ```Maps```.
++ ```Structs```.
