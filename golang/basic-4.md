@@ -8,7 +8,7 @@ Trước đó chúng ta đã tìm hiểu về ```Composite Types- Array```.
 Series số 3 này sẽ tìm hiểu về ```Composite Types``` trong ```Composite Types``` sẽ có ```Arrays``` , Slices, ```String Internals```, ```Maps```, ```Structs``` Đặc biệt là ```Structs```.
 .
 # Basic Go 4 - Composite Types - Slice
-![alt text](./assets/basic4/1-alltype.png)
+<!-- ![alt text](./assets/basic4/1-alltype.png) -->
 
 Bài trước chúng ta đã tìm hiểu về Array. Thế thì trước khi bắt đầu chúng ta sẽ nói về điểm khác biệt giữa ```Slices``` Và ```Array```.
 
