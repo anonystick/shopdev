@@ -5,10 +5,10 @@ image: ""
 ---
 
 Trước đó chúng ta đã tìm hiểu về ```Composite Types- Array```. 
-Series số 3 này sẽ tìm hiểu về ```Composite Types``` trong ```Composite Types``` sẽ có ```Arrays``` , Slices, ```String Internals```, ```Maps```, ```Structs``` Đặc biệt là ```Structs```.
+Series số 4 này sẽ tìm hiểu về ```Composite Types - Slice```.
 .
 # Basic Go 4 - Composite Types - Slice
-<!-- ![alt text](./assets/basic4/1-alltype.png) -->
+![alt text](./assets/basic4/1-alltype.png)
 
 Bài trước chúng ta đã tìm hiểu về Array. Thế thì trước khi bắt đầu chúng ta sẽ nói về điểm khác biệt giữa ```Slices``` Và ```Array```.
 
@@ -32,7 +32,7 @@ Bài trước chúng ta đã tìm hiểu về Array. Thế thì trước khi b�
 ```
 # Thế thì Slice là gì ?
 
-Trong Go, **slice** là một cấu trúc dữ liệu linh hoạt hơn **array**. Nếu như mảng có kích thước cố định thì **slice** có thể mở rộng hoặc thu hẹp kích thuốc một cách Dynamic khi cần. **Có thể coi Slice như 1 "Cửa sổ" nhìn vào **backing array** chứa dữ liệu thực.**
+Trong Go, **slice** là một cấu trúc dữ liệu linh hoạt hơn **array**. Nếu như mảng có kích thước cố định thì **slice** có thể mở rộng hoặc thu hẹp kích thước một cách Dynamic khi cần. **Có thể coi Slice như 1 "Cửa sổ" nhìn vào **backing array** chứa dữ liệu thực.**
 
 **Cấu trúc của một slice bao gồm:**
 - **Pointer**: Con trỏ trỏ đến vị trí của **backing array**.
@@ -358,7 +358,7 @@ Khi một slice được mở rộng và thêm phần tử mới, Go tự độn
 
 ## Full slice expression
 
-Chúng ta đã biết về nhưng thứ cơ bản như ```[START:STOP]```. Thì bên cạnh đó chúng ta có thứ mở rộng hơn ```[START:STOP:CAP]````.
+Chúng ta đã biết về nhưng thứ cơ bản như ```[START:STOP]```. Thì bên cạnh đó chúng ta có thứ mở rộng hơn ```[START:STOP:CAP]```.
 
 Về ```[START:STOP:CAP]``` không những giới hạn về **length** mà còn cả **capacity**.
 
@@ -380,6 +380,7 @@ Trong đó:
 ![alt text](./assets/basic4/fullslice4.png)
 ![alt text](./assets/basic4/fullslice5.png)
 
+Ví dụ :
 ```go
     package main
 
@@ -490,7 +491,7 @@ và đặc biệt chú ý đó là ```make()``` hiệu quả hơn cho viẹc t�
         fmt.Printf("Slice: %v, Length: %d, Capacity: %d\n", slice, len(slice), cap(slice))
     }
 ```
-
+Kết quả :
 ```yaml
     Slice: [0], Length: 1, Capacity: 5
     Slice: [0 1], Length: 2, Capacity: 5
@@ -502,6 +503,5 @@ và đặc biệt chú ý đó là ```make()``` hiệu quả hơn cho viẹc t�
     Slice: [0 1 2 3 4 5 6 7], Length: 8, Capacity: 10
     Slice: [0 1 2 3 4 5 6 7 8], Length: 9, Capacity: 10
     Slice: [0 1 2 3 4 5 6 7 8 9], Length: 10, Capacity: 10
-```.
-
-...
+```
+... 
