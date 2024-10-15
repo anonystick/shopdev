@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+  servlet:
+    context-path: /
+
+  netty:
+    connection-timeout:
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  application:
+    name: module-buyer
+
