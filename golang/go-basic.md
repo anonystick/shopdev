@@ -12,6 +12,18 @@ Chúng ta sẽ sớm gặp nhau và trở thành đồng nghiệp, và chúng t�
 
 Ngoài ra nếu như bạn cảm thấy sự sắp xếp này chưa thể hiện đúng bản chất thì hoan hỉ để lại một lời góp ý, xin chân thành cảm ơn...
 
+Chúng ta cần nói lại: **"Vui lòng tập bò, đến tập đi, rồi tiếp đến mới chạy, cuối cùng chúng ta cũng sẽ phải bay"**
+
+## Go Basic (Tập bò)
+
+1. [[Package] - Tìm hiểu về Package](./basic-1.md)
+2. [[Variable and Data-type] - Tìm hiểu về Variable và Data-type](./basic-2.md)
+3. [[Composite Types-Array] - Tìm hiểu về Composite Types-Array](./basic-3.md)
+4. [[Composite Types - Slice] - Tìm hiểu về Composite Types - Slice](./basic-4.md)
+5. ... Updating....
+
+## Go Level 1 (Tập đi)
+
 1. [**Introduction | Go Development Environment Setup | Mức độ khó (★☆☆☆☆) | Mức độ phổ biến (★★★★★)**](https://www.youtube.com/@anonystick)
 2. [**Explore Go Development Tools | Mức độ khó (★☆☆☆☆) | Mức độ phổ biến (★★★☆☆)**](https://www.youtube.com/@anonystick)
 3. [**Go Language Syntax, Variables, Constants, and Command-Line Tools | Mức độ khó (★★☆☆☆) | Mức độ phổ biến (★★★★☆)**](https://www.youtube.com/@anonystick)
