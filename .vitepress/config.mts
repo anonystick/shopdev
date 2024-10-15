@@ -2,19 +2,13 @@ import { defineConfig, HeadConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  transformHead: ({ pageData }) => {
-    const head: HeadConfig[] = []
-
-    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
-    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
-    head.push(['meta', { property: 'og:image', content: pageData.frontmatter.image }])
-    
-    return head
-  },
   title: "Shop Ecommerce Backend",
   description: "Con đường đi tới lập trình viên Backend",
   // header
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ['meta', { name: 'keywords', content: 'java, golang, nodejs, backend, ecommerce' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 
@@ -27,7 +21,7 @@ export default defineConfig({
     // docFooter
     docFooter: {
       prev: "bài trước",
-      next: "bài iếp theo",
+      next: "tiếp theo",
     },
     darkModeSwitchLabel: "sáng/tối",
     returnToTopLabel: "lên đầu",
@@ -47,9 +41,9 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Go Backend', link: '/go-backend' },
-      { text: 'Java Backend', link: '/java-backend' },
-      { text: 'Nodejs Backend', link: '/nodejs-backend' }
+      { text: 'Go Backend', link: '/golang' },
+      { text: 'Java Backend', link: '/java' },
+      { text: 'Nodejs Backend', link: '/node' }
     ],
 
     sidebar: {
@@ -57,10 +51,18 @@ export default defineConfig({
         {
           text: 'Golang Backend Ecommerce',
           items: [
-            { text: 'Go 24: [User Login Interface] - Registration', link: '/golang/go-24' },
-            { text: 'Go 25: [User Login Interface] - VerifyOTP', link: '/golang/go-25' },
-            { text: 'Go 26: [User Login Interface] - Update Password Register', link: '/golang/go-26' },
-            { text: 'Go 27: [User Login Interface] - Login and Token', link: '/golang/go-27' },
+            { text: 'GOLANG cho người mới bắt đầu từ con số 0', link: '/golang/go-basic' },
+            { text: 'Go 29: [User Login Interface] - Registration', link: '/golang/go-29' },
+            { text: 'Go 30: [User Login Interface] - Triển khai Swagger, Open API', link: '/golang/go-30' },
+            { text: 'Go 31: [User Login Interface] - Verify OTP', link: '/golang/go-31' },
+            { text: 'Go 32: [User Login Interface] - Update Password Register', link: '/golang/go-32' },
+            { text: 'Go 33: [User Login Interface] - Login', link: '/golang/go-33' },
+            { text: 'Go 34: [User Login Interface] - Use Transaction in SQLC', link: '/golang/go-34' },
+            { text: 'Go 35: [User Login Interface] - Setup Two-Factor-Authentication Account', link: '/golang/go-35' },
+            { text: 'Go 36: [User Login Interface] - Enable Two-Factor-Authentication Account', link: '/golang/go-36' },
+            { text: 'Go 37: [User Login Interface] - Dislable Two-Factor-Authentication Account', link: '/golang/go-37' },
+            { text: 'Go 38: [Sysem Application] - RateLimit với 3 tầng ứng dụng (Tính khả dụng)', link: '/golang/go-38' },
+            { text: 'Go 39: [Product Interface] - Hệ thống hàng hóa, nhu cầu, kiến trúc...', link: '/golang/go-39' },
             // ... các mục khác
           ]
         }
@@ -69,9 +71,16 @@ export default defineConfig({
         {
           text: 'Java Backend Ecommerce',
           items: [
-            { text: 'Bài 1', link: '/java/bai1' },
-            { text: 'Bài 2', link: '/java/bai2' },
-            // ... các mục khác
+            { text: 'Java 01: JAVA được phát triển như thế nào?', link: '/java/java-01' },
+            {text: 'JAVA cho người mới bắt đầu từ con số 0', link: '/java/java-basic'}
+          ]
+        }
+      ],
+      "/node/": [
+        {
+          text: 'Node.js Backend Ecommerce',
+          items: [
+            { text: 'Node 01: Kiếm tiền ở độ tuổi Lập Trình thanh xuân và lời nhắn nhủ?', link: '/node/node-01' },
           ]
         }
       ],

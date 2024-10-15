@@ -9,6 +9,7 @@ Series số 4 này sẽ tìm hiểu về ```Composite Types - Slice```.
 .
 # Basic Go 4 - Composite Types - Slice
 ![alt text](./assets/basic4/1-alltype.png)
+
 Bài trước chúng ta đã tìm hiểu về Array. Thế thì trước khi bắt đầu chúng ta sẽ nói về điểm khác biệt giữa ```Slices``` Và ```Array```.
 
 - Array trong Go có kích thước cố định và không thể thay đổi sau khi được khởi tạo.```(Array cannot grow or shrink)```.

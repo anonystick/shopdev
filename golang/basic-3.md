@@ -23,7 +23,8 @@ Series số 3 này sẽ tìm hiểu về ```Composite Types``` trong ```Composit
     var numbers [5]int // Mặc định kích thước là 5 và không thể thay đổi kích thước
     var numbers []int // Không mặc định kích thước và kích thước có thể thay đổi
 ```
-    - Đối với ```[]int``` thực chất không phải là array mà là **slice** một kiểu dữ liệu động có thể thay đổi kích thước, nhưng cách hoạt động của nó lại dựa trên arrays....
+
+- Đối với `[]int` thực chất không phải là array mà là **slice** một kiểu dữ liệu động có thể thay đổi kích thước, nhưng cách hoạt động của nó lại dựa trên arrays...
 
 - Getting and Setting Array Element.
 Để setting và getting value cho 1 phần tử nào đó trong array thì luôn phải có **index** đi kèm.
