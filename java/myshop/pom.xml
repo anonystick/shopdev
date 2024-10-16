@@ -44,6 +44,11 @@
         <redisson>3.15.6</redisson>
         <druid-version>1.2.16</druid-version>
         <alibaba-fastjson>2.0.31</alibaba-fastjson>
+        <mybatis-plus-version>3.5.1</mybatis-plus-version>
+        <druid-version>1.2.8</druid-version>
+        <sharding-jdbc-version>4.0.0</sharding-jdbc-version>
+        <mysql-connector-version>8.0.29</mysql-connector-version>
+        <lombok-version>1.18.30</lombok-version>
     </properties>
     <dependencies>
 

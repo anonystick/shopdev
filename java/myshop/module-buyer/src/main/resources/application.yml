@@ -1,12 +1,9 @@
 server:
   port: 8888
-
   servlet:
     context-path: /
-
   netty:
     connection-timeout:
-
 management:
   endpoints:
     web:
@@ -15,4 +12,47 @@ management:
 spring:
   application:
     name: module-buyer
+#mysql
+shardingsphere:
+  datasource:
+    #  Tên cơ sở dữ liệu, có thể tùy chỉnh, có thể là nhiều, được phân tách bằng dấu phẩy Đối với mỗi thư viện được xác định ở đây, các thuộc tính kết nối phải được xác định bên dưới.
+    names: default-datasource
+    default-datasource:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/myShop?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 811212
+      maxActive: 50
+      initialSize: 10
+      maxWait: 60000
+      minIdle: 10
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      #Có nên cache preparedStatement (PSCache) không? Nên tắt PSCache trên MySQL. PSCache giúp tăng hiệu năng đáng kể cho cơ sở dữ liệu hỗ trợ con trỏ, ví dụ như Oracle.
+      poolPreparedStatements: false
+      #Để kích hoạt PSCache, cần đặt giá trị lớn hơn 0. Giá trị -1 tương đương với tắt.
+      maxOpenPreparedStatements: -1
+      #Cấu hình bộ lọc giám sát và thống kê bị loại bỏ, dẫn đến giao diện giám sát không thể thống kê SQL, 'wall' được sử dụng cho tường lửa.
+      filters: stat,wall,log4j2
+      #Sử dụng thuộc tính connectProperties để bật tính năng mergeSql và ghi lại các truy vấn chậm.
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      #Hợp nhất dữ liệu giám sát từ nhiều DruidDataSource
+      useGlobalDataSourceStat: true
+      loginUsername: druid
+      loginPassword: druid
+  props:
+    #Có nên in các câu lệnh SQL logic và các câu lệnh SQL thực tế hay không. Nên in trong quá trình gỡ lỗi và đóng trong môi trường product.
+    sql:
+      show: false
 
+# Mybatis-plus
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    #đã bật bộ đệm
+    cache-enabled: true
