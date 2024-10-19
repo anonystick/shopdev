@@ -72,3 +72,8 @@ myshop:
   cache:
     # Thời gian hết hạn tính bằng giây. Nếu nó không bao giờ hết hạn, nó được đặt thành -1.
     timeout: 1500
+  # Cài đặt chi tiết JWT
+  jwt-setting:
+    # Thời gian hết hạn của token (phút)
+    tokenExpireTime: 60
+
