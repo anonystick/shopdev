@@ -12,43 +12,54 @@ management:
 spring:
   application:
     name: module-buyer
-#mysql
-shardingsphere:
+  cache:
+    type: redis
+  #Phân tích JSON bằng Jackson
+  jackson:
+    time-zone: GMT+8
+    serialization:
+      #Tắt chức năng giải mã JSON của Jackson.
+      fail-on-empty-beans: false
+  # Redis
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: ""
+      lettuce:
+        pool:
+          # Maximum number of connections in the connection pool (negative value means no limit), default is 8
+          max-active: 200
+          # Maximum blocking wait time for the connection pool (negative value means no limit), default is -1
+          max-wait: 20
+          # Maximum idle connections in the connection pool, default is 8
+          max-idle: 10
+          # Minimum idle connections in the connection pool, default is 8
+          min-idle: 8
+  #mysql
   datasource:
-    #  Tên cơ sở dữ liệu, có thể tùy chỉnh, có thể là nhiều, được phân tách bằng dấu phẩy Đối với mỗi thư viện được xác định ở đây, các thuộc tính kết nối phải được xác định bên dưới.
-    names: default-datasource
-    default-datasource:
-      type: com.alibaba.druid.pool.DruidDataSource
-      driverClassName: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://127.0.0.1:3306/myShop?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-      username: root
-      password: 811212
-      maxActive: 50
-      initialSize: 10
-      maxWait: 60000
-      minIdle: 10
-      timeBetweenEvictionRunsMillis: 60000
-      minEvictableIdleTimeMillis: 300000
-      validationQuery: SELECT 1 FROM DUAL
-      testWhileIdle: true
-      testOnBorrow: false
-      testOnReturn: false
-      #Có nên cache preparedStatement (PSCache) không? Nên tắt PSCache trên MySQL. PSCache giúp tăng hiệu năng đáng kể cho cơ sở dữ liệu hỗ trợ con trỏ, ví dụ như Oracle.
-      poolPreparedStatements: false
-      #Để kích hoạt PSCache, cần đặt giá trị lớn hơn 0. Giá trị -1 tương đương với tắt.
-      maxOpenPreparedStatements: -1
-      #Cấu hình bộ lọc giám sát và thống kê bị loại bỏ, dẫn đến giao diện giám sát không thể thống kê SQL, 'wall' được sử dụng cho tường lửa.
-      filters: stat,wall,log4j2
-      #Sử dụng thuộc tính connectProperties để bật tính năng mergeSql và ghi lại các truy vấn chậm.
-      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-      #Hợp nhất dữ liệu giám sát từ nhiều DruidDataSource
-      useGlobalDataSourceStat: true
-      loginUsername: druid
-      loginPassword: druid
-  props:
-    #Có nên in các câu lệnh SQL logic và các câu lệnh SQL thực tế hay không. Nên in trong quá trình gỡ lỗi và đóng trong môi trường product.
-    sql:
-      show: false
+    url: jdbc:mysql://localhost:3306/myShop?allowMultiQueries=true&rewriteBatchedStatements=true
+    username: root
+    password: 811212
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      initial-size: 10
+      min-idle: 10
+      max-active: 150
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 60000
+      max-evictable-idle-time-millis: 900000
+      validation-query: SELECT 1 FROM DUAL
+      validation-query-timeout: 500
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+    props:
+      #Có nên in các câu lệnh SQL logic và các câu lệnh SQL thực tế hay không. Nên in trong quá trình gỡ lỗi và đóng trong môi trường sản xuất.
+      sql:
+        show: false
 
 # Mybatis-plus
 mybatis-plus:
@@ -56,3 +67,8 @@ mybatis-plus:
   configuration:
     #đã bật bộ đệm
     cache-enabled: true
+
+myshop:
+  cache:
+    # Thời gian hết hạn tính bằng giây. Nếu nó không bao giờ hết hạn, nó được đặt thành -1.
+    timeout: 1500

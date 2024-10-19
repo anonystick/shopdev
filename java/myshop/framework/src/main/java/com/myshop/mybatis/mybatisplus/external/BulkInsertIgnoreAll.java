@@ -43,7 +43,7 @@ public class BulkInsertIgnoreAll extends AbstractMethod {
         String sqlTemplate = "<script>\nINSERT IGNORE INTO %s %s VALUES %s\n</script>";
 
         List<TableFieldInfo> fieldList = tableInfo.getFieldList();
-        String insertSqlColumn = tableInfo.getKeyInsertSqlColumn(true, false) + this.filterTableFieldInfo(fieldList, predicate, TableFieldInfo::getInsertSqlColumn, EMPTY);
+        String insertSqlColumn = tableInfo.getKeyInsertSqlColumn(true,"", false) + this.filterTableFieldInfo(fieldList, predicate, TableFieldInfo::getInsertSqlColumn, EMPTY);
         String columnScript = LEFT_BRACKET + insertSqlColumn.substring(0, insertSqlColumn.length() - 1) + RIGHT_BRACKET;
         String insertSqlProperty = tableInfo.getKeyInsertSqlProperty(true, ENTITY_DOT, false) + this.filterTableFieldInfo(fieldList, predicate, i -> i.getInsertSqlProperty(ENTITY_DOT), EMPTY);
         insertSqlProperty = LEFT_BRACKET + insertSqlProperty.substring(0, insertSqlProperty.length() - 1) + RIGHT_BRACKET;

@@ -36,19 +36,44 @@
         <revision>4.3</revision>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <skipTests>true</skipTests>
-        <lombok-version>1.18.30</lombok-version>
-        <jwt-version>0.11.2</jwt-version>
-        <Hutool-version>5.8.24</Hutool-version>
-        <Gso-version>2.11.0</Gso-version>
-        <redisson>3.15.6</redisson>
+        <mybatis-plus-version>3.5.5</mybatis-plus-version>
+        <mybatis-spring.version>3.0.3</mybatis-spring.version>
+        <sharding-jdbc-version>4.1.1</sharding-jdbc-version>
+        <sharding-namespace-version>4.0.1</sharding-namespace-version>
         <druid-version>1.2.16</druid-version>
-        <alibaba-fastjson>2.0.31</alibaba-fastjson>
-        <mybatis-plus-version>3.5.1</mybatis-plus-version>
-        <druid-version>1.2.8</druid-version>
-        <sharding-jdbc-version>4.0.0</sharding-jdbc-version>
-        <mysql-connector-version>8.0.29</mysql-connector-version>
+        <sharding-jdbc-version>4.1.1</sharding-jdbc-version>
         <lombok-version>1.18.30</lombok-version>
+        <redisson>3.15.6</redisson>
+        <rocketmq-version>2.2.2</rocketmq-version>
+        <Hutool-version>5.8.24</Hutool-version>
+        <fastjson2.version>2.0.51</fastjson2.version>
+        <jwt-version>0.11.2</jwt-version>
+        <owasp-java-html-sanitizer>20211018.2</owasp-java-html-sanitizer>
+        <zxing>3.5.0</zxing>
+        <logstash-logback-encoder>7.1.1</logstash-logback-encoder>
+        <knife4j.version>3.0.3</knife4j.version>
+        <simple-http-version>1.0.3</simple-http-version>
+        <springfox-version>3.0.0</springfox-version>
+        <swagger-bootstrap-ui>1.8.5</swagger-bootstrap-ui>
+        <de.codecentric>2.6.6</de.codecentric>
+        <elasticsearch.version>7.17.3</elasticsearch.version>
+        <enjoy.version>4.3</enjoy.version>
+        <xxl-job>2.3.0</xxl-job>
+        <userAgentUtils>1.21</userAgentUtils>
+        <poi-version>5.1.0</poi-version>
+        <poi-ooxml-version>5.1.0</poi-ooxml-version>
+        <logstash-logback-encoder>7.1.1</logstash-logback-encoder>
+        <de.codecentric>2.6.6</de.codecentric>
+        <slf4j-api>1.7.36</slf4j-api>
+        <aliyun-sdk-dysms-version>2.0.9</aliyun-sdk-dysms-version>
+        <minio.version>8.0.3</minio.version>
+        <huaweicloud-obs.version>3.20.6.2</huaweicloud-obs.version>
+        <cos.version>5.6.97</cos.version>
+        <tencentcloud.version>3.1.693</tencentcloud.version>
+        <kuaidi100-api.version>1.0.11</kuaidi100-api.version>
+        <alipay-sdk-version>4.22.32.ALL</alipay-sdk-version>
+        <spring-boot-admin>2.3.1</spring-boot-admin>
+        <owasp-java-html-sanitizer>20211018.2</owasp-java-html-sanitizer>
     </properties>
     <dependencies>
 
@@ -60,17 +85,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <parameters>true</parameters>
                 </configuration>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>3.1.0</version>
             </plugin>
         </plugins>
     </build>
