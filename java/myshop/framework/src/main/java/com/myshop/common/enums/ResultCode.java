@@ -1,4 +1,4 @@
-package com.myshop.common.security.enums;
+package com.myshop.common.enums;
 
 /**
  * Trả về mã trạng thái
@@ -8,6 +8,21 @@ package com.myshop.common.security.enums;
  * @author vantrang
  */
 public enum ResultCode {
+
+    /**
+     * Mã trạng thái thành công
+     */
+    SUCCESS(200, "Thành công"),
+
+    /**
+     * Tham số bất thường
+     */
+    PARAMS_ERROR(4002, "Tham số bất thường"),
+
+    /**
+     * Mã lỗi trả về
+     */
+    DEMO_SITE_EXCEPTION(4001, "Trang web demo không được phép sử dụng"),
 
     /**
      * Mã lỗi trả về

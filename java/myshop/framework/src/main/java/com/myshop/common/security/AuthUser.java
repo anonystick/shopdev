@@ -79,7 +79,17 @@ public class AuthUser implements Serializable {
     private String tenantId;
 
 
+    /**
+     * // Khai báo constructor của lớp AuthUser, nhận vào các tham số: username, id, nickName, face, role
+     *
+     * @param username
+     * @param id
+     * @param nickName
+     * @param face
+     * @param role
+     */
     public AuthUser(String username, String id, String nickName, String face, UserEnums role) {
+        // Gán giá trị cho thuộc tính username,...
         this.username = username;
         this.face = face;
         this.id = id;

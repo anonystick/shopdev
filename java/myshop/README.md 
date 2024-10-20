@@ -1,9 +1,0 @@
-## Myshop - Hệ thống Thương mại Điện tử
-
-### Giới thiệu hệ thống
-
-**Trang web chính thức**:
-
-Hệ thống thương mại điện tử Myshop hỗ trợ người bán tham giá, được phát triển dựa trên nền tảng SpringBoot cho back-end, Vue cho front-end, **mã nguồn hoàn chỉnh của hệ thống được mở hoàn toàn.**
-
-Hệ thống áp dụng kiến trúc tách biệt front-end và back-end, hỗ trợ triển khai phân tán, hỗ trợ Docker, mỗi API hoạt động độc lập và có người dùng độc lập.

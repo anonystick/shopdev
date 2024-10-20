@@ -1,6 +1,6 @@
 package com.myshop.common.exception;
 
-import com.myshop.common.security.enums.ResultCode;
+import com.myshop.common.enums.ResultCode;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -13,17 +13,18 @@ import lombok.EqualsAndHashCode;
 @Data
 public class ServiceException extends RuntimeException {
 
+    // Biến serialVersionUID được sử dụng để xác định phiên bản của lớp này khi được serialize
     private static final long serialVersionUID = 3447728300174142127L;
 
     public static final String DEFAULT_MESSAGE = "Lỗi mạng, vui lòng thử lại sau!";
 
     /**
-     * message
+     * Thông báo lỗi
      */
     private String msg = DEFAULT_MESSAGE;
 
     /**
-     * result code
+     * Mã lỗi
      */
     private ResultCode resultCode;
 

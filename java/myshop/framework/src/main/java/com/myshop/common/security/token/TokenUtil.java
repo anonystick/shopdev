@@ -6,7 +6,7 @@ import com.myshop.cache.CachePrefix;
 import com.myshop.common.exception.ServiceException;
 import com.myshop.common.properties.JWTTokenProperties;
 import com.myshop.common.security.AuthUser;
-import com.myshop.common.security.enums.ResultCode;
+import com.myshop.common.enums.ResultCode;
 import com.myshop.common.security.enums.SecurityEnum;
 import com.myshop.common.security.enums.UserEnums;
 import io.jsonwebtoken.*;
