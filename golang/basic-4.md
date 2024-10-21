@@ -155,7 +155,7 @@ Một slice không lưu dữ liệu riêng của nó mà chỉ trỏ tới 1 m�
     fmt.Println(slice) // Kết quả: [10 2]
 ```
 
-    - ```slice``` thay đổi phần tử đầu tiên nên ```arr``` bị ảnh hưởng và thay đổi theo.
+- ```slice``` thay đổi phần tử đầu tiên nên ```arr``` bị ảnh hưởng và thay đổi theo.
 
 ```go
     arr := [4]int{1, 2, 3, 4}
@@ -164,7 +164,7 @@ Một slice không lưu dữ liệu riêng của nó mà chỉ trỏ tới 1 m�
     fmt.Println(arr)   // Kết quả: [1 2 3 4] (không bị thay đổi)
     fmt.Println(slice) // Kết quả: [1 2 5 6] (tạo ra mảng mới)
 ```
-    - Còn ```append``` thì không làm thay đổi ```backing array```.
+- Còn ```append``` thì không làm thay đổi ```backing array```.
 
 ## Slice Value.
 
