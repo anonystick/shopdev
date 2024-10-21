@@ -39,7 +39,7 @@ string([]byte{104, 101, 121}) // Kết quả là "hey"
 
 ![alt text](./assets/basic5/rune2.png)
 
-![alt text](./assets/basic5/rune3.png)
+<!-- ![alt text](./assets/basic5/rune3.png) -->
 
 ![alt text](./assets/basic5/rune4.png)
 
