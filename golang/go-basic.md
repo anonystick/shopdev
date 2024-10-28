@@ -20,7 +20,8 @@ Chúng ta cần nói lại: **"Vui lòng tập bò, đến tập đi, rồi ti�
 2. [[Variable and Data-type] - Tìm hiểu về Variable và Data-type](./basic-2.md)
 3. [[Composite Types-Array] - Tìm hiểu về Composite Types-Array](./basic-3.md)
 4. [[Composite Types - Slice] - Tìm hiểu về Composite Types - Slice](./basic-4.md)
-5. ... Updating....
+5. [[Composite Types - String] - Tìm hiểu về Composite Types - String](./basic-5.md)
+6. ... Updating....
 
 ## Go Level 1 (Tập đi)
 
