@@ -8,11 +8,13 @@ Series số 7 này sẽ tìm hiểu về ```Composite Types - STRUCTS```.
 .
 # Basic Go 7 - Composite Types - STRUCTS
 ![alt text](./assets/basic7/struct.png)
+
 - Trong Go, ```struct``` là một kiểu dữ liệu cho phép chúng ta đại diện cho các khái niệm phức tạp bằng cách **nhóm** các trường dữ liệu (fields) liên quan thành một kiểu duy nhất.
 
 - ```Struct``` rất hữu ích khi bạn muốn quản lý các dữ liệu phức tạp theo cấu trúc.
 
 - Về bản chất, ```struct``` có chức năng tương tự như **class** trong các Ngôn ngữ lập trình hướng đối tượng khác, Nhưng Go không hỗ trợ OOP theo cách truyền thống, nên ```struct``` trong Go không có tính kế thừa (**inheritance**) như class.
+
 ![alt text](./assets/basic7/gt.png)
 ## Struct như 1 Blueprint (bản thiết kế)
 
