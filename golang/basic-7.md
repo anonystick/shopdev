@@ -32,7 +32,7 @@ Series số 7 này sẽ tìm hiểu về ```Composite Types - STRUCTS```.
 
 ![alt text](./assets/basic7/blueprint.png)
 
-![alt text](./assets/basic7/blueprint2.png.png)
+![alt text](./assets/basic7/blueprint2.png)
 
 Đặc điểm của Struct trong Go.
 
