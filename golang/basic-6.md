@@ -8,8 +8,7 @@ Trước đó chúng ta đã tìm hiểu về ```Composite Types- Slice```.
 Series số 6 này sẽ tìm hiểu về ```Composite Types - Map```.
 .
 # Basic Go 6 - Composite Types - Map
-![alt text](./assets/basic5/alltype.png)
-
+![alt text](./assets/basic6/alltype.png)
 # Maps
 
 
@@ -24,6 +23,7 @@ Series số 6 này sẽ tìm hiểu về ```Composite Types - Map```.
 - **Key-Value** Mismatches.
 
     - **Key** và **Value** trong map không cần phải thuộc cùng 1 kiểu. Chúng có thể là kiểu khác nhau.
+
 ![alt text](./assets/basic6/type.png)
 
 - Các **key** trong map cần phải là **comparable types** (các kiểu có thể so sánh được) như: ```int```, ```string```, ```bool```. Các kiểu như **slice**, **map**, và **function** không thể làm **key** vì chúng không hỗ trợ so sánh.
@@ -33,7 +33,8 @@ Series số 6 này sẽ tìm hiểu về ```Composite Types - Map```.
 
     - Một biến map thực chất là một **pointer** tới một **map header** trong bộ nhớ
 
-    - **Map header** chứa nhiều thông tin như **buckets**, **overflow**,**count**,**hash** và các thành phần khác để quản lý dữ liệu trong map
+    - **Map header** chứa nhiều thông tin như **buckets**, **overflow**,**count**,**hash** và các thành phần khác để quản lý dữ liệu trong map.
+
 ![alt text](./assets/basic6/memory.png)
 
 ![alt text](./assets/basic6/memory2.png)
