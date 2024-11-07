@@ -11,7 +11,6 @@ Chúng ta sẽ sớm gặp nhau và trở thành đồng nghiệp các chương 
 
 Ngoài ra nếu như bạn cảm thấy sự sắp xếp này chưa thể hiện đúng bản chất thì hoan hỉ để lại một lời góp ý, xin chân thành cảm ơn...
 
-
 1. [**Java Basics Overview | Mức độ khó (★☆☆☆☆) | Mức độ phổ biến (★★★★★)**](https://www.youtube.com/@anonystick)
 2. [**How Java Programs Run | Mức độ khó (★☆☆☆☆) | Mức độ phổ biến (★★★★★)**](https://www.youtube.com/@anonystick)
 3. [**Java Memory Model: Variables, Data Types | Mức độ khó (★★☆☆☆) | Mức độ phổ biến (★★★★☆)**](https://www.youtube.com/@anonystick)

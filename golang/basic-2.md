@@ -7,6 +7,7 @@ image: ""
 Trước đó chúng ta đã tìm hiểu về Package và cách tổ chức các Scope trong Go,Tiếp theo bài này chung ta sẽ tìm hiểu về Variable và Data-type.
 
 # Basic Go 2 - Variable & Data type
+
 ![alt text](./assets/basic2/f1.png)
 
 Variable là các vùng nhớ chứa name, Được sử dụng để lưu trữ giá trị trong quá trình chương trình thực thi. Hiểu và sử dụng đúng cách giúp bạn viết code dễ dàng hơn, linh hoạt và dễ bảo trì.
@@ -16,15 +17,18 @@ Variable là các vùng nhớ chứa name, Được sử dụng để lưu trữ
 ```go
 var speed int
 ```
+
 Chúng ta có cấu trúc như sau :
-``` go
+
+```go
 name  static_type    value_with_a_type
                      0
-var   speed          int 
+var   speed          int
 ```
+
 **Quy tắc đặt tên**:
 
-**name** sẽ được bắt đầu bằng chữ cái bất kỳ hoặc bắt đầu bằng dấu _. Chữ Unicode cũng được.
+**name** sẽ được bắt đầu bằng chữ cái bất kỳ hoặc bắt đầu bằng dấu \_. Chữ Unicode cũng được.
 
 ví dụ :
 
@@ -42,12 +46,13 @@ var var int       // ❌ Sai (Không được sử dụng từ khóa dành riên
 
 Tiếp theo là Type.
 Trong go các variable được thiết kế theo cơ chế Strongly-type, nghĩa là mỗi biến đều có 1 Type cụ thể ngay từ khi bắt đầu khai báo. Type này sẽ quyết định loại giá trị trả về là gì và không thể thay đổi trong suốt quá trình thực thi.
+
 ```go
                 integer literals
     int     ->  -1  0   27
 
                 float literals
-    float64 -> -.5  0.  1. 
+    float64 -> -.5  0.  1.
                -0.5 0.0 1.0
 
                 pre-declared constants
@@ -77,9 +82,11 @@ var name    string
 var txt     string
 
 ```
+
 **Zero data**
 
 1 loại data cần lưu ý trong Go.
+
 ```go
 booleans -> false
 numerics -> 0
@@ -87,14 +94,14 @@ string   -> ""
 pointer  -> nil
 ```
 
-*Ví dụ:*
+_Ví dụ:_
 
 ```go
 package main()
 import "fmt"
 
 func main() {
-    
+
     var speed   int
     var heat    float64
     var off     bool
@@ -108,6 +115,7 @@ func main() {
 ```
 
 kết quả trả về :
+
 ```bash
 go run main.go
 0
@@ -115,6 +123,7 @@ go run main.go
 false
 ""
 ```
+
 **Multiple Declarations**
 
 Bạn có thể khai báo nhiều variable trong 1 câu duy lệnh
@@ -153,7 +162,7 @@ Bạn có thể khai báo nhiều variable trong 1 câu duy lệnh
     import "fmt"
     func main() {
         var speed,velocity int
-        fmt.Println(speed,velocity) 
+        fmt.Println(speed,velocity)
         // nó sẽ tương đương với var speed int , var veloctiy int
         // ...
     }
@@ -179,7 +188,7 @@ Bạn không cần phải sử dụng **var** và **type** trước và sau **na
 Có 1 vài lưu ý khi dùng short decalaration đó là:
 
 - Short decalaration không sử dụng được cho **Package scope**
-- Muốn sử dụng được cho **Package scope** phải khai báo đầu đủ syntax nếu không sẽ báo lỗi 
+- Muốn sử dụng được cho **Package scope** phải khai báo đầu đủ syntax nếu không sẽ báo lỗi
 
 ```go
     package main
@@ -190,15 +199,18 @@ Có 1 vài lưu ý khi dùng short decalaration đó là:
         fmt.Println(safe)
     }
 ```
+
 **kết quả sẽ ra như này**
 
 ```bash
 $ go run main.go
 SYNTAX ERROR: non-declaration statement outside function body
 ```
-Vì vậy phải khai báo đầy đủ ```var safe = true ``` và như này thì sẽ sử dụng được Package scope variable.
+
+Vì vậy phải khai báo đầy đủ `var safe = true ` và như này thì sẽ sử dụng được Package scope variable.
 
 Tóm lại
+
 ```go
     //Quy tắc khi sử dụng package scope chúng ta phải bắt đầu bằng 1 keyword
     package main
@@ -206,7 +218,7 @@ Tóm lại
     func main (){
 
     }
-    // ta thấy rằng package, var ,func là 1 keyword 
+    // ta thấy rằng package, var ,func là 1 keyword
 
     // còn với short decalration không có keyword bắt đầu
     // safe := true => cho nên không thể dùng package scope variable
@@ -225,6 +237,7 @@ Bạn cũng có thể khai báo và gán (decalaration and initialize) cho nhi�
         fmt.Println(safe,speed)
     }
 ```
+
 kết quả trả về sẽ là:
 
 ```bash
@@ -232,12 +245,11 @@ kết quả trả về sẽ là:
     true 50
 ```
 
-
 **Redecalarion**
 
 Trong short decalaration chúng ta có thể gán (initialize) cho 1 new variable và gán cho 1 variabel đã tồn tại trước đó.
 
-``` go
+```go
     package main
 
     func main () {
@@ -247,7 +259,7 @@ Trong short decalaration chúng ta có thể gán (initialize) cho 1 new variabl
     }
 ```
 
-Như ta thấy rằng variable ```speed``` được khai báo và gán giá trị sau 1 variable đã tồn tại ```safe``` bằng cách sử dụng **short decalaration**.
+Như ta thấy rằng variable `speed` được khai báo và gán giá trị sau 1 variable đã tồn tại `safe` bằng cách sử dụng **short decalaration**.
 và có 1 rule đó là : **Phải luôn đảm bảo có ít nhất 1 new variable**
 
 ```go
@@ -255,7 +267,7 @@ package main
 
 func main () {
 
-    speed := 10 // speed là 1 biến mới 
+    speed := 10 // speed là 1 biến mới
     speed, maxSpedd := 10, 100 // maxSpedd là 1 biến mới
 }
 ```
@@ -269,28 +281,30 @@ func main () {
 - Khi bạn muốn Group variable lại với nhau để có thể đọc dễ dàng hơn.
 
 **Đối với short**
+
 - Khi đã biết giá trị của variable.
 - Cần giữ cho code ngắn gọn.
 - Dùng để redecalaration
 
 ##
+
 **Assignment**
-Có thể thay đổi value bằng cách dùng toán tử ```+ - / *```
+Có thể thay đổi value bằng cách dùng toán tử `+ - / *`
 ![alt text](./assets/basic2/operationassignment.png)
 
 **Multiple assignments**
 
-```go 
+```go
     package main
 
     import ("fmt","time")
-    
+
     func main () {
         var (
             speed int
             now time.time
         )
-        
+
         speed, now = 100,time.Now()
         // fmt
     }
@@ -316,12 +330,14 @@ Bạn cũng có thể swap value của variable khi sử dụng multiple assignm
 ```
 
 #
+
 ... Về các statement như ifelse for v.v thì các bạn tự tìm hiểu nha.
 
-Phần sau sẽ là tìm hiểu về ```Composite types```.
-Trong ```Composite types``` có :  
-+ ```Array```.
-+ ```Slices```.
-+ ```String Internals```.
-+ ```Maps```.
-+ ```Structs```.
+Phần sau sẽ là tìm hiểu về `Composite types`.
+Trong `Composite types` có :
+
+- `Array`.
+- `Slices`.
+- `String Internals`.
+- `Maps`.
+- `Structs`.
