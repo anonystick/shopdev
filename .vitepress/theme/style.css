@@ -136,3 +136,8 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}

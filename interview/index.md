@@ -1,14 +1,19 @@
+## Video Số 159: Ngày đầu mở bán vé TÀU - Hệ thống api sập
+
+<iframe class="video" src="https://www.youtube.com/embed/EQ4WTurq5I0?si=8XlaHC3XzBDmDJXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Hướng dẫn học tập và phỏng vấn Java
 
 **Lưu ý khi sử dụng tài liệu này:**
 
 - Các nhà phỏng vấn có kinh nghiệm sẽ khai thác kiến thức kỹ thuật dựa trên kinh nghiệm dự án của bạn. Đừng chỉ học thuộc lòng tài liệu, hãy cố gắng hiểu sâu sắc các khái niệm và ứng dụng thực tế.
 
-**Hãy ủng hộ Cộng đồng văn minh Tipsjs:**
+**Hãy ủng hộ Cộng đồng văn minh [Tips Javascript](https://www.youtube.com/@anonystick):**
 
 - Nếu bạn thấy nội dung của này hữu ích, hãy dành tặng một Star, đây là sự động viên lớn nhất đối với chúng tôi.
 - Cảm ơn các bạn đã đồng hành và cùng nhau cố gắng nhé!
 - Truy cập [GitHub](https://github.com/anonystick/shopdev) để xem và ủng hộ dự án.
+- Link từng Step sẽ update liên tục
 
 ## Java
 
