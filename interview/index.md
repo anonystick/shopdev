@@ -1,6 +1,6 @@
 ## Video Số 159: Ngày đầu mở bán vé TÀU - Hệ thống api sập
 
-<iframe class="video" src="https://www.youtube.com/embed/EQ4WTurq5I0?si=8XlaHC3XzBDmDJXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/EQ4WTurq5I0?si=8XlaHC3XzBDmDJXU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Hướng dẫn học tập và phỏng vấn Java
 
