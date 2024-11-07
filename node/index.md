@@ -103,43 +103,43 @@ LINK ĐĂNG KÝ - [Link dăng ký khóa học, tham gia hội viên](https://www
 
 41: [Phân tích hành vi User áp dụng PUSH or PULL trong task Notification System (quan trọng)](https://youtu.be/7vFWLGBihhE)
 
-42:  [Notifications Service vs Tiếp đến là tách Message Queue System](https://youtu.be/dAefZUW3fOQ)
+42: [Notifications Service vs Tiếp đến là tách Message Queue System](https://youtu.be/dAefZUW3fOQ)
 
-43: [Kafka Message Queue](https://youtu.be/_YT0MsFszhY) 
+43: [Kafka Message Queue](https://youtu.be/_YT0MsFszhY)
 
-44: [Rabbit Message Queue](https://youtu.be/DWr5zV_TmF8) 
+44: [Rabbit Message Queue](https://youtu.be/DWr5zV_TmF8)
 
-45: [Tách dự án với kiến trúc Microservice System | Level Nâng cao](https://youtu.be/eo6RJsQTOqI) 
+45: [Tách dự án với kiến trúc Microservice System | Level Nâng cao](https://youtu.be/eo6RJsQTOqI)
 
-46: [Integration Testing with Jest vs Mongodb | Microservice System](https://youtu.be/0pgx_XUjddo) 
+46: [Integration Testing with Jest vs Mongodb | Microservice System](https://youtu.be/0pgx_XUjddo)
 
-47: [[start server] First step in Microservice vs Message Queue | Microservice System | Lvxx](https://youtu.be/qw1z8hJRzuc) 
+47: [[start server] First step in Microservice vs Message Queue | Microservice System | Lvxx](https://youtu.be/qw1z8hJRzuc)
 
-48: [Xử lý Message Error or TTL (Time To Live) trong Message Queue thế nào? | Kiến trúc MQ](https://youtu.be/nDxAiAB4UJg) 
+48: [Xử lý Message Error or TTL (Time To Live) trong Message Queue thế nào? | Kiến trúc MQ](https://youtu.be/nDxAiAB4UJg)
 
-49: [Xử lý message khi gặp sự cố MQ server die (TTL) thực hành](https://youtu.be/muR4HURM0k4) 
+49: [Xử lý message khi gặp sự cố MQ server die (TTL) thực hành](https://youtu.be/muR4HURM0k4)
 
-50: [QUAN TRỌNG và dành cho Level cao về cách Xử lý error message trong kiến trúc MQ](https://youtu.be/lZXkli4AhGA) 
+50: [QUAN TRỌNG và dành cho Level cao về cách Xử lý error message trong kiến trúc MQ](https://youtu.be/lZXkli4AhGA)
 
-51: [Message Ordering in Pub/Sub or Queues | Microservices Backend](https://youtu.be/tVawGVrJPak) 
+51: [Message Ordering in Pub/Sub or Queues | Microservices Backend](https://youtu.be/tVawGVrJPak)
 
-52: [Message Ordering | Microservice Backend | #2](https://youtu.be/nrFEJLiU-l0) 
+52: [Message Ordering | Microservice Backend | #2](https://youtu.be/nrFEJLiU-l0)
 
-53: [Thực hành về Message Ordered với hai tình huống | RabbitMQ | Microservice Backend](https://youtu.be/XPaqZek9q-A) 
+53: [Thực hành về Message Ordered với hai tình huống | RabbitMQ | Microservice Backend](https://youtu.be/XPaqZek9q-A)
 
-54: [MySQL | Setup Master Slave ](https://youtu.be/ikH6_39OF7k) 
+54: [MySQL | Setup Master Slave ](https://youtu.be/ikH6_39OF7k)
 
-55: [MySQL | Thực hành tự tạo dữ liệu test 10.000.000 records trong MySQL | Level 0, 1, 2](https://youtu.be/UjVTDWdPL0U) 
+55: [MySQL | Thực hành tự tạo dữ liệu test 10.000.000 records trong MySQL | Level 0, 1, 2](https://youtu.be/UjVTDWdPL0U)
 
-56: [MySQL | Thực hành tự tạo dữ liệu test 10.000.000 records trong MySQL | Level 3, 4, 5](https://youtu.be/UFfn1dHbfCs) 
+56: [MySQL | Thực hành tự tạo dữ liệu test 10.000.000 records trong MySQL | Level 3, 4, 5](https://youtu.be/UFfn1dHbfCs)
 
 FIX: [Update link Discord Member](https://youtu.be/2K3Pk-_pFSc)
 
-57: [x-api-key anh em hỏi, tôi đáp](https://youtu.be/--yEOnZBB8o) 
+57: [x-api-key anh em hỏi, tôi đáp](https://youtu.be/--yEOnZBB8o)
 
-58: [MySQL | Partition Database | Level 0, 1, 2 ](https://youtu.be/KZ199lfI7N0) 
+58: [MySQL | Partition Database | Level 0, 1, 2 ](https://youtu.be/KZ199lfI7N0)
 
-59: [MySQL | Partition Database | Level 3, 4, 5](https://youtu.be/eEt3yuz3S_I) 
+59: [MySQL | Partition Database | Level 3, 4, 5](https://youtu.be/eEt3yuz3S_I)
 
 60: [MYSQL | Index MySQL những sai lầm nên tránh](https://youtu.be/GSonUVsFFJ8)
 
@@ -189,7 +189,7 @@ FIX: [Update link Discord Member](https://youtu.be/2K3Pk-_pFSc)
 
 84: [Redis Connect Nodejs: Cách connect redis và nodejs cho dự án Microservice](https://youtu.be/4s3gHFS3aO8)
 
-85: [Share Source giao diện shopDEV (react+vite) và app mobile (iOS + Android)  Link download](https://youtu.be/A-tXuWpyBss)
+85: [Share Source giao diện shopDEV (react+vite) và app mobile (iOS + Android) Link download](https://youtu.be/A-tXuWpyBss)
 
 86: [Shop eCommerce: Triển khai Verify OTP Email ](https://youtu.be/d4Xy6MyaaCI)
 
