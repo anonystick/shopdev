@@ -56,13 +56,15 @@ Trong tương lai, nhu cầu về lập trình viên Go sẽ tiếp tục gia t�
 
 Dự án ShopDEVGO không chỉ là một ứng dụng thương mại điện tử, mà còn là cơ hội để bạn trải nghiệm và phát triển với một trong những ngôn ngữ lập trình tiềm năng nhất hiện nay. Hãy tham gia cùng chúng tôi để khám phá sức mạnh của Go và xây dựng tương lai của thương mại điện tử!
 
-
 ## Dành cho ai?
+
 **Backend Developers muốn chuyển đổi sang Go** :
+
 - Đã có sẵn kiến thức nền, kiến thức cơ bản về ngôn ngữ Go.
 - Đã coi qua các video về Nodejs ở hội viên hoặc hơn hết đã hiểu biết về Java, Python,v.v.
 
 **Go Enthusiasts** :
+
 - Những người có đam mê và có kinh nghiệm cơ bản về Go, muốn đào sâu hơn vào việc sử dụng Go trong hệ thống **eCommerce** Và **Microservice**.
 
 ## Học được gì?
@@ -71,14 +73,14 @@ Trong hệ thống `Con đường tiến tới Go`, chúng ta sẽ đi qua hai c
 
 1. **Chặng một** (Dành cho level 0, 1 của Go): Bằng cách nghiên cứu bài viết và xem video thực hành, bạn sẽ hình thành hệ thống kiến thức cốt lõi của ngôn ngữ Go. Cụ thể, bạn sẽ hiểu biết về cú pháp cơ bản và các tính năng quan trọng trong Go, bao gồm:
 
-    - Functions.
-    - Struct.
-    - Interfaces.
-    - Packages.
-    - Concurrency.
-    - Reflection.
+   - Functions.
+   - Struct.
+   - Interfaces.
+   - Packages.
+   - Concurrency.
+   - Reflection.
 
-    Trong mỗi phần, chúng ta sẽ học từ những kiến thức cơ bản qua các bài viết và video thực hành. Bạn sẽ hiểu cách sử dụng Go trong các tình huống thực tế, cùng với việc giải thích cách dùng tốt nhất cho từng trường hợp.
+   Trong mỗi phần, chúng ta sẽ học từ những kiến thức cơ bản qua các bài viết và video thực hành. Bạn sẽ hiểu cách sử dụng Go trong các tình huống thực tế, cùng với việc giải thích cách dùng tốt nhất cho từng trường hợp.
 
 2. **Chặng 2 phần nâng cao** (Dành cho level > 2 của Go): Ở giai đoạn này, bạn sẽ tiếp cận mọi công nghệ backend kết hợp với Go để xây dựng một dự án eCommerce thực tế ở **Cấp độ doanh nghiệp**. Bạn sẽ học cách sử dụng các công cụ và công nghệ hiện đại như:
    - **Redis**: Tìm hiểu và thiết lập Redis sentinel hoặc Cluster để đảm bảo tính sẵn sàng cao.
@@ -88,4 +90,3 @@ Trong hệ thống `Con đường tiến tới Go`, chúng ta sẽ đi qua hai c
    - **Gin Framework**: Xây dựng API Restful với Gin, quản lý logging, xử lý lỗi, và Test Mocking.
    - Triển khai hệ thống API phức tạp.
    - Xử lý cơ sở dữ liệu quy mô lớn và các hệ thống phân tán (distributed systems).
-

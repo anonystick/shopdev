@@ -17,14 +17,16 @@ hero:
       text: Nodejs Backend
       link: node/index
     - theme: alt
+      text: Java interview
+      link: interview/index
+    - theme: alt
       text: Công nghệ tham gia Backend
       link: tech/index
-
 # features:
 #   - title: Hệ thống e-Commerce
 #     icon:
 #       src: /lightning.svg
-#     details: Dự án eCommerce là một hệ thống thương mại điện tử, bao gồm hệ thống eCommerce frontEnd và Backend. Nó được triển khai dựa trên ba ngôn ngữ chính là JAVA, GO, NODE.js và được triển khai bằng cách sử dụng công cụ chứa Docker. 
+#     details: Dự án eCommerce là một hệ thống thương mại điện tử, bao gồm hệ thống eCommerce frontEnd và Backend. Nó được triển khai dựa trên ba ngôn ngữ chính là JAVA, GO, NODE.js và được triển khai bằng cách sử dụng công cụ chứa Docker.
 #   - title: Lập trình viên sẽ làm được gì
 #     icon:
 #       src: /lightning.svg
@@ -34,4 +36,3 @@ hero:
 #       src: /lightning.svg
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

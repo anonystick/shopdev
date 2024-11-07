@@ -1,4 +1,3 @@
-
 ---
 title: Golang cho người mới bắt đầu TỪ SỐ 0
 description: Golang cho người mới bắt đầu sẽ được thiết kế dành cho những sinh viên chưa có hoặc chỉ có kinh nghiệm lập trình cơ bản. Trong topic này, bạn sẽ học những kiến ​​thức cơ bản về ngôn ngữ lập trình Go
