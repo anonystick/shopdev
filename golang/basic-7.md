@@ -138,7 +138,7 @@ Mặc dù Go không hỗ trợ class, nhưng bạn vẫn có thể định nghĩ
 
 ![alt text](./assets/basic7/embeding.png)
 
-- Các bạn đã biết về quan hệ "**has-a** trong lập trình rồi là quan hệ 1-n .
+- Các bạn đã biết về quan hệ "**has-a** trong lập trình rồi là quan hệ n-1 .
 
 - Một đối tượng sở hữu 1 hoặc nhiều đối tượng khác.
 
@@ -276,7 +276,7 @@ func main(){
 
 - Trong Go, ```field tags``` là một ```chuỗi metadata tĩnh``` được gán cho một field nào đó trong ```struct```.
 
-- Các field tag này **không tự có ý nghĩa**, mà thay vào đó chúng được các thư viên như ```json``` hay ```xml``` đọc để **encode** và **decode**.
+- Các field tag này **không tự có ý nghĩa**, mà thay vào đó chúng được các thư viện như ```json``` hay ```xml``` đọc để **encode** và **decode**.
 
 - Các tính năng của Field Tags.
 
