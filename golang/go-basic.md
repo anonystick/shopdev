@@ -1,4 +1,3 @@
-
 ---
 title: Golang cho người mới bắt đầu TỪ SỐ 0
 description: Golang cho người mới bắt đầu sẽ được thiết kế dành cho những sinh viên chưa có hoặc chỉ có kinh nghiệm lập trình cơ bản. Trong topic này, bạn sẽ học những kiến ​​thức cơ bản về ngôn ngữ lập trình Go
@@ -21,7 +20,10 @@ Chúng ta cần nói lại: **"Vui lòng tập bò, đến tập đi, rồi ti�
 3. [[Composite Types-Array] - Tìm hiểu về Composite Types-Array](./basic-3.md)
 4. [[Composite Types - Slice] - Tìm hiểu về Composite Types - Slice](./basic-4.md)
 5. [[Composite Types - String] - Tìm hiểu về Composite Types - String](./basic-5.md)
-6. ... Updating....
+6. [[Composite Types - Map] Tìm hiểu về Composite Types - Map](./basic-6.md)
+7. [[Composite Types - STRUCTS] Tìm hiểu về Composite Types - STRUCTS](./basic-7.md)
+8. [[Funtions and Pointer - Funtions] Tìm hiểu về Funtions and Pointer - Funtions](./basic-8.md)
+9. ...
 
 ## Go Level 1 (Tập đi)
 

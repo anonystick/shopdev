@@ -4,12 +4,14 @@ description: Tìm hiểu về Funtions and Pointer - Funtions
 image: ""
 ---
 
-Series số 8 này sẽ tìm hiểu về ```Funtions and Pointer - Funtions```.
+Series số 8 này sẽ tìm hiểu về `Funtions and Pointer - Funtions`.
 .
+
 # Basic Go 8 - Funtions and Pointer - Funtions
+
 ![alt text](./assets/basic8/functions.png)
 
-Trong go , Một function đều được bắt đầu bằng ```func```.
+Trong go , Một function đều được bắt đầu bằng `func`.
 
 ![alt text](./assets/basic8/func.png)
 
@@ -17,7 +19,7 @@ Trong go , Một function đều được bắt đầu bằng ```func```.
 
 - Mỗi function đều được khai báo ở cấp độ package và có một tên duy nhất trong phạm vi package đó.
 
-- Các tên như ```int``` và ```main``` là đặc biệt , Không nên dùng các tên này cho các function khác. vì chúng có vai trò đặc biệt trong Go.
+- Các tên như `int` và `main` là đặc biệt , Không nên dùng các tên này cho các function khác. vì chúng có vai trò đặc biệt trong Go.
 
 ![alt text](./assets/basic8/namefunction.png)
 
@@ -31,7 +33,7 @@ Trong go , Một function đều được bắt đầu bằng ```func```.
 
 - Function có thể khai báo **không hoặc có nhiều tham số đầu vào**.
 
-- Khi muốn dừng function chúng ta sử dụng ```return``` để lấy giá trị trả về/
+- Khi muốn dừng function chúng ta sử dụng `return` để lấy giá trị trả về/
 
 - Đôi khi một function có thể không có hoặc có nhiều giá trị trả về .
 
@@ -62,7 +64,9 @@ Trong go , Một function đều được bắt đầu bằng ```func```.
 - Vấn đề cuối cùng đó là Package level variable . Sẽ rất khó khăn trong việc debug nhiều package của bạn có quá nhiều function trỏ tới 1 variable.
 
 ![alt text](./assets/basic8/debug.png)
+
 ## PROGRAM DESIGN
+
 ![alt text](./assets/basic8/verb.png)
 
 - Nhìn vào sơ đồ , chúng ta có thể thấy **Mỗi hàm chỉ nên làm một việc** Đây là quy tắc quan trọng , quy tác này giúp code của mình dễ hiểu và dễ bảo trì hơn.
@@ -94,14 +98,14 @@ Trong go , Một function đều được bắt đầu bằng ```func```.
 
     func handleError(err error) {
         if err != nil {
-            log.Fatal(err)  
+            log.Fatal(err)
         }
     }
 ```
 
 ## NAKED RETURN
 
-- **Naked Return** là một tính năng trong Go cho phép bạn trả về các **giá trị kết quả đã được đặt tên** mà không cần phải ghi rõ chúng trong ```return```.
+- **Naked Return** là một tính năng trong Go cho phép bạn trả về các **giá trị kết quả đã được đặt tên** mà không cần phải ghi rõ chúng trong `return`.
 
 - Khi sử dụng **Naked Return** các giá trị sẽ được tự động trả về dựa trên các biến đã khai báo trong phần khai báo hàm.
 
@@ -145,6 +149,7 @@ Vậy khi nào nên sử dụng **Naked return**
 - Trong các hàm phức tạp hơn hoặc có nhiều logic điều kiện, việc dùng naked return có thể gây nhầm lẫn, do đó nên tránh.
 
 Example 1 : Nên dùng
+
 ```go
     func calculateSomething(input int) (result int, err error) {
         if input < 0 {
@@ -159,7 +164,9 @@ Example 1 : Nên dùng
         return
     }
 ```
+
 Example 2 : Không nên dùng vì quá khó đọc.
+
 ```go
 func processData(input int) (result int, status string, err error) {
     if input < 0 {
@@ -167,9 +174,9 @@ func processData(input int) (result int, status string, err error) {
         status = "failed"
         return
     }
-    
+
     result = input * 2
-    
+
     if result > 50 {
         status = "large"
         if result%2 == 0 {
@@ -195,6 +202,7 @@ func processData(input int) (result int, status string, err error) {
 ```
 
 ##
+
 ![alt text](./assets/basic8/coppedandpassed.png)
 
 - **Giá trị (value)** trong Go thường được sao chép khi **gán** hoặc **truyền** cho **function**.
@@ -203,10 +211,9 @@ func processData(input int) (result int, status string, err error) {
 
 - Tuy nhiên vẫn có các ngoại lệ như **map,slice,channels** là các tham chiếu vì vậy chúng sẽ không sao chép nội dung khi truyền vào.
 
-- Như trong ảnh khi bạn gọi hàm **update function** ```update(p parser, r result)```, giá trị ```parser``` được coppy và gán cho ```p```.
+- Như trong ảnh khi bạn gọi hàm **update function** `update(p parser, r result)`, giá trị `parser` được coppy và gán cho `p`.
 
-- Bất kỳ thay đổi nào trong ```p``` sẽ không làm ảnh hưởng tới ```parser``` ban đầu.
-
+- Bất kỳ thay đổi nào trong `p` sẽ không làm ảnh hưởng tới `parser` ban đầu.
 
 ![alt text](./assets/basic8/coppymap.png)
 
