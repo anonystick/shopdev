@@ -23,7 +23,9 @@ Chúng ta cần nói lại: **"Vui lòng tập bò, đến tập đi, rồi ti�
 6. [[Composite Types - Map] Tìm hiểu về Composite Types - Map](./basic-6.md)
 7. [[Composite Types - STRUCTS] Tìm hiểu về Composite Types - STRUCTS](./basic-7.md)
 8. [[Funtions and Pointer - Funtions] Tìm hiểu về Funtions and Pointer - Funtions](./basic-8.md)
-9. ...
+9. [[Funtions and Pointer - Pointer] Tìm hiểu về Funtions and Pointer - Pointer](./basic-9.md)
+10. [[GO OOP Methods and Interface ] Tìm hiểu về Methods and Interface - Methods](./basic-10.md)
+11 ...
 
 ## Go Level 1 (Tập đi)
 
