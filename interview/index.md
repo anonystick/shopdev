@@ -16,155 +16,154 @@
 
 **Tổng hợp các chủ đề kiến thức/câu hỏi phỏng vấn**:
 
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn cơ bản về Java (Phần 1)](./java/basis/java-basic-questions-01.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn cơ bản về Java (Phần 2)](./java/basis/java-basic-questions-02.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn cơ bản về Java (Phần 3)](./java/basis/java-basic-questions-03.md)
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn cơ bản về Java (Phần 1)]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn cơ bản về Java (Phần 2)]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn cơ bản về Java (Phần 3)]
 
 **Giải thích chi tiết các điểm kiến thức quan trọng**:
 
-- [Tại sao trong Java chỉ có truyền theo giá trị?](./java/basis/why-there-only-value-passing-in-java.md)
-- [Giải thích về Seri hóa Java](./java/basis/serialization.md)
-- [Giải thích về Generic và Wildcard](./java/basis/generics-and-wildcards.md)
-- [Giải thích về cơ chế phản chiếu Java](./java/basis/reflection.md)
-- [Giải thích về mô hình Proxy trong Java](./java/basis/proxy.md)
-- [Giải thích về BigDecimal](./java/basis/bigdecimal.md)
-- [Giải thích về lớp ma thuật Unsafe trong Java](./java/basis/unsafe.md)
-- [Giải thích về cơ chế SPI trong Java](./java/basis/spi.md)
-- [Giải thích về cú pháp đường trong Java](./java/basis/syntactic-sugar.md)
+- [Tại sao trong Java chỉ có truyền theo giá trị?]
+- [Giải thích về Seri hóa Java]
+- [Giải thích về Generic và Wildcard]
+- [Giải thích về cơ chế phản chiếu Java]
+- [Giải thích về mô hình Proxy trong Java]
+- [Giải thích về BigDecimal]
+- [Giải thích về lớp ma thuật Unsafe trong Java]
+- [Giải thích về cơ chế SPI trong Java]
+- [Giải thích về cú pháp đường trong Java]
 
 ### Bộ sưu tập (Collections)
 
 **Tổng hợp các điểm kiến thức/câu hỏi phỏng vấn**:
 
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Collections Java (Phần 1)](./java/collection/java-collection-questions-01.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Collections Java (Phần 2)](./java/collection/java-collection-questions-02.md)
-- [Tổng hợp các lưu ý khi sử dụng Collections Java](./java/collection/java-collection-precautions-for-use.md)
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Collections Java (Phần 1)]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Collections Java (Phần 2)]
+- [Tổng hợp các lưu ý khi sử dụng Collections Java]
 
 **Phân tích mã nguồn**:
 
-- [Phân tích mã nguồn ArrayList + cơ chế mở rộng](./java/collection/arraylist-source-code.md)
-- [Phân tích mã nguồn LinkedList](./java/collection/linkedlist-source-code.md)
-- [Phân tích mã nguồn HashMap + cấu trúc dữ liệu cơ bản](./java/collection/hashmap-source-code.md)
-- [Phân tích mã nguồn ConcurrentHashMap + cấu trúc dữ liệu cơ bản](./java/collection/concurrent-hash-map-source-code.md)
-- [Phân tích mã nguồn LinkedHashMap](./java/collection/linkedhashmap-source-code.md)
-- [Phân tích mã nguồn CopyOnWriteArrayList](./java/collection/copyonwritearraylist-source-code.md)
-- [Phân tích mã nguồn ArrayBlockingQueue](./java/collection/arrayblockingqueue-source-code.md)
-- [Phân tích mã nguồn PriorityQueue](./java/collection/priorityqueue-source-code.md)
-- [Phân tích mã nguồn DelayQueue](./java/collection/priorityqueue-source-code.md)
+- [Phân tích mã nguồn ArrayList + cơ chế mở rộng]
+- [Phân tích mã nguồn LinkedList]
+- [Phân tích mã nguồn HashMap + cấu trúc dữ liệu cơ bản]
+- [Phân tích mã nguồn ConcurrentHashMap + cấu trúc dữ liệu cơ bản]
+- [Phân tích mã nguồn LinkedHashMap]
+- [Phân tích mã nguồn CopyOnWriteArrayList]
+- [Phân tích mã nguồn ArrayBlockingQueue]
+- [Phân tích mã nguồn PriorityQueue]
+- [Phân tích mã nguồn DelayQueue]
 
 ### IO
 
-- [Tổng hợp kiến thức cơ bản về IO](./java/io/io-basis.md)
-- [Tổng hợp các mô hình thiết kế IO](./java/io/io-design-patterns.md)
-- [Giải thích về mô hình IO](./java/io/io-model.md)
-- [Tổng hợp kiến thức cốt lõi về NIO](./java/io/nio-basis.md)
+- [Tổng hợp kiến thức cơ bản về IO]
+- [Tổng hợp các mô hình thiết kế IO]
+- [Giải thích về mô hình IO]
+- [Tổng hợp kiến thức cốt lõi về NIO]
 
 ### Tính đồng thời (Concurrency)
 
 **Tổng hợp các điểm kiến thức/câu hỏi phỏng vấn**:
 
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Tính đồng thời Java (Phần 1)](./java/concurrent/java-concurrent-questions-01.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Tính đồng thời Java (Phần 2)](./java/concurrent/java-concurrent-questions-02.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Tính đồng thời Java (Phần 3)](./java/concurrent/java-concurrent-questions-03.md)
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Tính đồng thời Java (Phần 1)]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Tính đồng thời Java (Phần 2)]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Tính đồng thời Java (Phần 3)]
 
 **Giải thích chi tiết các điểm kiến thức quan trọng**:
 
-- [Giải thích về khóa lạc quan (Optimistic Locking) và khóa bi quan (Pessimistic Locking)](./java/concurrent/jmm.md)
-- [Giải thích về CAS](./java/concurrent/cas.md)
-- [Giải thích về JMM (Mô hình bộ nhớ Java)](./java/concurrent/jmm.md)
-- **Thread Pool**: [Giải thích về Thread Pool Java](./java/concurrent/java-thread-pool-summary.md)、[Thực hành tốt nhất về Thread Pool Java](./java/concurrent/java-thread-pool-best-practices.md)
-- [Giải thích về ThreadLocal](./java/concurrent/threadlocal.md)
-- [Tổng hợp về Concurrent Collections Java](./java/concurrent/java-concurrent-collections.md)
-- [Tổng hợp về lớp Atomic](./java/concurrent/atomic-classes.md)
-- [Giải thích về AQS](./java/concurrent/aqs.md)
-- [Giải thích về CompletableFuture](./java/concurrent/completablefuture-intro.md)
+- [Giải thích về khóa lạc quan (Optimistic Locking) và khóa bi quan (Pessimistic Locking)]
+- [Giải thích về CAS]
+- [Giải thích về JMM (Mô hình bộ nhớ Java)]
+- **Thread Pool**: [Giải thích về Thread Pool Java]、[Thực hành tốt nhất về Thread Pool Java]
+- [Giải thích về ThreadLocal]
+- [Tổng hợp về Concurrent Collections Java]
+- [Tổng hợp về lớp Atomic]
+- [Giải thích về AQS]
+- [Giải thích về CompletableFuture]
 
 ### JVM
 
-- **[Vùng bộ nhớ Java (Java Memory Areas)](./java/jvm/memory-area.md)**
-- **[Thu gom rác JVM (JVM Garbage Collection)](./java/jvm/jvm-garbage-collection.md)**
-- [Cấu trúc tệp lớp (File Structure)](./java/jvm/class-file-structure.md)
-- **[Quá trình tải lớp (Loading Process)](./java/jvm/class-loading-process.md)**
-- [Bộ tải lớp (Class Loaders)](./java/jvm/classloader.md)
+- **[Vùng bộ nhớ Java (Java Memory Areas)]**
+- **[Thu gom rác JVM (JVM Garbage Collection)]**
+- [Cấu trúc tệp lớp (File Structure)]
+- **[Quá trình tải lớp (Loading Process)]**
+- [Bộ tải lớp (Class Loaders)]
 
-[//]: # "- [【Chưa hoàn thành】Tổng hợp các tham số JVM quan trọng nhất (Bản dịch hoàn thành một nửa)](./java/jvm/jvm-parameters-intro.md)"
-
-- [Giới thiệu về JVM một cách dễ hiểu](./java/jvm/jvm-intro.md)
-- [Công cụ giám sát và xử lý lỗi JDK](./java/jvm/jdk-monitoring-and-troubleshooting-tools.md)
+- [Giới thiệu về JVM một cách dễ hiểu]
+- [Công cụ giám sát và xử lý lỗi JDK]
 
 ### Các tính năng mới
 
-- **Java 8**：[Tổng hợp các tính năng mới của Java 8 (Bản dịch)](./java/new-features/java8-tutorial-translate.md)、[Tổng hợp các tính năng mới thường dùng của Java8](./java/new-features/java8-common-new-features.md)
-- [Tổng quan về các tính năng mới của Java 9](./java/new-features/java9.md)
-- [Tổng quan về các tính năng mới của Java 10](./java/new-features/java10.md)
-- [Tổng quan về các tính năng mới của Java 11](./java/new-features/java11.md)
-- [Tổng quan về các tính năng mới của Java 12 & 13](./java/new-features/java12-13.md)
-- [Tổng quan về các tính năng mới của Java 14 & 15](./java/new-features/java14-15.md)
-- [Tổng quan về các tính năng mới của Java 16](./java/new-features/java16.md)
-- [Tổng quan về các tính năng mới của Java 17](./java/new-features/java17.md)
-- [Tổng quan về các tính năng mới của Java 18](./java/new-features/java18.md)
-- [Tổng quan về các tính năng mới của Java 19](./java/new-features/java19.md)
-- [Tổng quan về các tính năng mới của Java 20](./java/new-features/java20.md)
-- [Tổng quan về các tính năng mới của Java 21](./java/new-features/java21.md)
-- [Tổng quan về các tính năng mới của Java 22 & 23](./java/new-features/java22-23.md)
+- **Java 8**：[Tổng hợp các tính năng mới của Java 8 ] 
+- [Tổng hợp các tính năng mới thường dùng của Java8]
+- [Tổng quan về các tính năng mới của Java 9]
+- [Tổng quan về các tính năng mới của Java 10]
+- [Tổng quan về các tính năng mới của Java 11]
+- [Tổng quan về các tính năng mới của Java 12 & 13]
+- [Tổng quan về các tính năng mới của Java 14 & 15]
+- [Tổng quan về các tính năng mới của Java 16]
+- [Tổng quan về các tính năng mới của Java 17]
+- [Tổng quan về các tính năng mới của Java 18]
+- [Tổng quan về các tính năng mới của Java 19]
+- [Tổng quan về các tính năng mới của Java 20]
+- [Tổng quan về các tính năng mới của Java 21]
+- [Tổng quan về các tính năng mới của Java 22 & 23]
 
 ## Kiến thức máy tính cơ bản
 
 ### Hệ điều hành
 
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về hệ điều hành (Phần 1)](./cs-basics/operating-system/operating-system-basic-questions-01.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về hệ điều hành (Phần 2)](./cs-basics/operating-system/operating-system-basic-questions-02.md)
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về hệ điều hành (Phần 1)]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về hệ điều hành (Phần 2)]
 - **Linux**:
-  - [Tổng hợp kiến thức Linux cơ bản dành cho BE](./cs-basics/operating-system/linux-intro.md)
-  - [Tổng hợp kiến thức cơ bản về lập trình Shell](./cs-basics/operating-system/shell-intro.md)
+  - [Tổng hợp kiến thức Linux cơ bản dành cho BE]
+  - [Tổng hợp kiến thức cơ bản về lập trình Shell]
 
 ### Mạng
 
 **Tổng hợp các điểm kiến thức/câu hỏi phỏng vấn**:
 
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về mạng máy tính (Phần 1)](./cs-basics/network/other-network-questions.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về mạng máy tính (Phần 2)](./cs-basics/network/other-network-questions2.md)
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về mạng máy tính (Phần 1)]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về mạng máy tính (Phần 2)]
 
 **Giải thích chi tiết các chủ điểm kiến thức quan trọng**:
 
-- [Giải thích về mô hình phân tầng OSI và TCP/IP (Cơ bản)](./cs-basics/network/osi-and-tcp-ip-model.md)
-- [Tổng hợp các giao thức phổ biến ở lớp ứng dụng (Lớp ứng dụng)](./cs-basics/network/application-layer-protocol.md)
-- [HTTP vs HTTPS (Lớp ứng dụng)](./cs-basics/network/http-vs-https.md)
-- [HTTP 1.0 vs HTTP 1.1 (Lớp ứng dụng)](./cs-basics/network/http1.0-vs-http1.1.md)
-- [Các mã trạng thái phổ biến của HTTP (Lớp ứng dụng)](./cs-basics/network/http-status-codes.md)
-- [Giải thích về hệ thống tên miền DNS (Lớp ứng dụng)](./cs-basics/network/dns.md)
-- [Ba lần bắt tay và bốn lần vẫy tay của TCP (Lớp truyền tải)](./cs-basics/network/tcp-connection-and-disconnection.md)
-- [Bảo đảm tính tin cậy truyền tải của TCP (Lớp truyền tải)](./cs-basics/network/tcp-reliability-guarantee.md)
-- [Giải thích về giao thức ARP (Lớp mạng)](./cs-basics/network/arp.md)
-- [Giải thích về giao thức NAT (Lớp mạng)](./cs-basics/network/nat.md)
-- [Tổng hợp các phương pháp tấn công mạng phổ biến (Bảo mật)](./cs-basics/network/network-attack-means.md)
+- [Giải thích về mô hình phân tầng OSI và TCP/IP (Cơ bản)]
+- [Tổng hợp các giao thức phổ biến ở lớp ứng dụng (Lớp ứng dụng)]
+- [HTTP vs HTTPS (Lớp ứng dụng)]
+- [HTTP 1.0 vs HTTP 1.1 (Lớp ứng dụng)]
+- [Các mã trạng thái phổ biến của HTTP (Lớp ứng dụng)]
+- [Giải thích về hệ thống tên miền DNS (Lớp ứng dụng)]
+- [Ba lần bắt tay và bốn lần vẫy tay của TCP (Lớp truyền tải)]
+- [Bảo đảm tính tin cậy truyền tải của TCP (Lớp truyền tải)]
+- [Giải thích về giao thức ARP (Lớp mạng)]
+- [Giải thích về giao thức NAT (Lớp mạng)]
+- [Tổng hợp các phương pháp tấn công mạng phổ biến (Bảo mật)]
 
 ### Cấu trúc dữ liệu
 
 **Minh họa cấu trúc dữ liệu**:
 
-- [Cấu trúc dữ liệu tuyến tính: Mảng, danh sách liên kết, ngăn xếp, hàng đợi](./cs-basics/data-structure/linear-data-structure.md)
-- [Đồ thị](./cs-basics/data-structure/graph.md)
-- [Đống](./cs-basics/data-structure/heap.md)
-- [Cây](./cs-basics/data-structure/tree.md)：Tập trung vào [Red-Black Trees](./cs-basics/data-structure/red-black-tree.md)、B-, B+, B\* Trees, LSM Trees
+- [Cấu trúc dữ liệu tuyến tính: Mảng, danh sách liên kết, ngăn xếp, hàng đợi]
+- [Graph]
+- [Stack and Queue]
+- [Tree]：Tập trung vào [Red-Black Trees], B-, B+, B\* Trees, LSM Trees
 
 Các cấu trúc dữ liệu thường được sử dụng khác:
 
-- [Bloom Filter](./cs-basics/data-structure/bloom-filter.md)
+- [Bloom Filter]
 
 ### Thuật toán
 
 Phần nội dung về thuật toán rất quan trọng, nếu bạn không biết cách học thuật toán, hãy xem những gì tôi đã viết:
 
-- [Khuyến nghị về sách và tài nguyên học thuật toán]() .
-- [Làm thế nào để luyện tập Leetcode?]()
+- [Khuyến nghị về sách và tài nguyên học thuật toán] .
+- [Làm thế nào để luyện tập Leetcode?]
 
 **Tổng hợp các vấn đề thuật toán phổ biến**:
 
-- [Tổng hợp một số bài toán thuật toán chuỗi phổ biến](./cs-basics/algorithms/string-algorithm-problems.md)
-- [Tổng hợp một số bài toán thuật toán danh sách liên kết phổ biến](./cs-basics/algorithms/linkedlist-algorithm-problems.md)
-- [Một số bài toán lập trình trong "Sword Refers to Offer"](./cs-basics/algorithms/the-sword-refers-to-offer.md)
-- [Mười thuật toán sắp xếp cổ điển](./cs-basics/algorithms/10-classical-sorting-algorithms.md)
+- [Tổng hợp một số bài toán thuật toán chuỗi phổ biến]
+- [Tổng hợp một số bài toán thuật toán danh sách liên kết phổ biến]
+- [Một số bài toán lập trình trong "Sword Refers to Offer"]
+- [Mười thuật toán sắp xếp cổ điển]
 
 Ngoài ra, trang web [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/) đã tổng hợp các thuật toán phổ biến, khá toàn diện và có hệ thống.
 
@@ -172,84 +171,84 @@ Ngoài ra, trang web [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-
 
 ### Cơ bản
 
-- [Tổng hợp kiến thức cơ bản về cơ sở dữ liệu](./database/basis.md)
-- [Tổng hợp kiến thức cơ bản về NoSQL](./database/nosql.md)
-- [Giải thích về Character Sets](./database/character-set.md)
+- [Tổng hợp kiến thức cơ bản về cơ sở dữ liệu]
+- [Tổng hợp kiến thức cơ bản về NoSQL]
+- [Giải thích về Character Sets]
 - SQL :
-  - [Tổng hợp kiến thức cơ bản về cú pháp SQL](./database/sql/sql-syntax-summary.md)
-  - [Tổng hợp các câu hỏi phỏng vấn phổ biến về SQL](./database/sql/sql-questions-01.md)
+  - [Tổng hợp kiến thức cơ bản về cú pháp SQL]
+  - [Tổng hợp các câu hỏi phỏng vấn phổ biến về SQL]
 
 ### MySQL
 
 **Tổng hợp các điểm kiến thức/câu hỏi phỏng vấn**:
 
-- **[Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về MySQL](./database/mysql/mysql-questions-01.md)**
-- [Tổng hợp các recommendations về quy tắc tối ưu hóa hiệu suất cao của MySQL](./database/mysql/mysql-high-performance-optimization-specification-recommendations.md)
+- **[Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về MySQL]**
+- [Tổng hợp các recommendations về quy tắc tối ưu hóa hiệu suất cao của MySQL]
 
 **Các điểm kiến thức quan trọng**:
 
-- [Giải thích về chỉ mục MySQL](./database/mysql/mysql-index.md)
-- [Giải thích về cấp độ cách ly giao dịch (Transaction Isolation Levels) của MySQL bằng hình ảnh](./database/mysql/transaction-isolation-level.md)
-- [Giải thích về ba nhật ký của MySQL (binlog, redo log và undo log)](./database/mysql/mysql-logs.md)
-- [Cơ chế thực hiện MVCC của công cụ lưu trữ InnoDB](./database/mysql/innodb-implementation-of-mvcc.md)
-- [Quá trình thực hiện câu lệnh SQL trong MySQL](./database/mysql/how-sql-executed-in-mysql.md)
-- [Giải thích về bộ nhớ đệm truy vấn của MySQL](./database/mysql/mysql-query-cache.md)
-- [Phân tích kế hoạch thực hiện (Execution Plan) của MySQL](./database/mysql/mysql-query-execution-plan.md)
-- [Khóa chính tự động tăng có phải luôn liên tục không?](./database/mysql/mysql-auto-increment-primary-key-continuous.md)
-- [Khuyến nghị về lưu trữ dữ liệu kiểu thời gian của MySQL](./database/mysql/some-thoughts-on-database-storage-time.md)
-- [Chuyển đổi ngầm định (Index Invalidation) gây ra sự vô hiệu hóa chỉ mục của MySQL](./database/mysql/index-invalidation-caused-by-implicit-conversion.md)
+- [Giải thích về chỉ mục MySQL]
+- [Giải thích về cấp độ cách ly giao dịch (Transaction Isolation Levels) của MySQL bằng hình ảnh]
+- [Giải thích về ba nhật ký của MySQL (binlog, redo log và undo log)]
+- [Cơ chế thực hiện MVCC của công cụ lưu trữ InnoDB]
+- [Quá trình thực hiện câu lệnh SQL trong MySQL]
+- [Giải thích về bộ nhớ đệm truy vấn của MySQL]
+- [Phân tích kế hoạch thực hiện (Execution Plan) của MySQL]
+- [Khóa chính tự động tăng có phải luôn liên tục không?]
+- [Khuyến nghị về lưu trữ dữ liệu kiểu thời gian của MySQL]
+- [Chuyển đổi ngầm định (Index Invalidation) gây ra sự vô hiệu hóa chỉ mục của MySQL]
 
 ### Redis
 
 **Tổng hợp các điểm kiến thức/câu hỏi phỏng vấn**:
 
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Redis (Phần 1)](./database/redis/redis-questions-01.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Redis (Phần 2)](./database/redis/redis-questions-02.md)
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Redis (Phần 1)]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Redis (Phần 2)]
 
 **Các điểm kiến thức quan trọng**:
 
-- [Giải thích về 3 chiến lược đọc/ghi bộ nhớ đệm thường được sử dụng](./database/redis/3-commonly-used-cache-read-and-write-strategies.md)
-- [Giải thích về 5 cấu trúc dữ liệu cơ bản của Redis](./database/redis/redis-data-structures-01.md)
-- [Giải thích về 3 cấu trúc dữ liệu đặc biệt của Redis](./database/redis/redis-data-structures-02.md)
-- [Giải thích về cơ chế lưu trữ lâu dài của Redis](./database/redis/redis-persistence.md)
-- [Giải thích về phân mảnh bộ nhớ của Redis](./database/redis/redis-memory-fragmentation.md)
-- [Tổng hợp các lý do phổ biến gây ra tắc nghẽn của Redis](./database/redis/redis-common-blocking-problems-summary.md)
-- [Giải thích về cụm Redis](./database/redis/redis-cluster.md)
+- [Giải thích về 3 chiến lược đọc/ghi bộ nhớ đệm thường được sử dụng]
+- [Giải thích về 5 cấu trúc dữ liệu cơ bản của Redis]
+- [Giải thích về 3 cấu trúc dữ liệu đặc biệt của Redis]
+- [Giải thích về cơ chế lưu trữ lâu dài của Redis]
+- [Giải thích về phân mảnh bộ nhớ của Redis]
+- [Tổng hợp các lý do phổ biến gây ra tắc nghẽn của Redis]
+- [Giải thích về cụm Redis]
 
 ### MongoDB
 
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về MongoDB (Phần 1)](./database/mongodb/mongodb-questions-01.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về MongoDB (Phần 2)](./database/mongodb/mongodb-questions-02.md)
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về MongoDB (Phần 1)]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về MongoDB (Phần 2)]
 
 ## Công cụ tìm kiếm
 
-[Tổng hợp các câu hỏi phỏng vấn về Elasticsearch](./database/elasticsearch/elasticsearch-questions-01.md)
+[Tổng hợp các câu hỏi phỏng vấn về Elasticsearch]
 
 ## Công cụ phát triển
 
 ### Maven
 
-- [Tổng hợp các khái niệm cốt lõi về Maven](./tools/maven/maven-core-concepts.md)
-- [Thực hành tốt nhất của Maven](./tools/maven/maven-best-practices.md)
+- [Tổng hợp các khái niệm cốt lõi về Maven]
+- [Thực hành tốt nhất của Maven]
 
 ### Gradle
 
-[Tổng hợp các khái niệm cốt lõi về Gradle](./tools/gradle/gradle-core-concepts.md)
+[Tổng hợp các khái niệm cốt lõi về Gradle]
 
 ### Docker
 
-- [Tổng hợp các khái niệm cốt lõi về Docker](./tools/docker/docker-intro.md)
-- [Thực hành Docker](./tools/docker/docker-in-action.md)
+- [Tổng hợp các khái niệm cốt lõi về Docker]
+- [Thực hành Docker]
 
 ### Git
 
-- [Tổng hợp các khái niệm cốt lõi về Git](./tools/git/git-intro.md)
-- [Tổng hợp các mẹo sử dụng GitHub hữu ích](./tools/git/github-tips.md)
+- [Tổng hợp các khái niệm cốt lõi về Git]
+- [Tổng hợp các mẹo sử dụng GitHub hữu ích]
 
 ## Thiết kế hệ thống
 
-- [Tổng hợp các câu hỏi phỏng vấn về thiết kế hệ thống](./system-design/system-design-questions.md)
-- [Tổng hợp các câu hỏi phỏng vấn về mô hình thiết kế](./system-design/design-pattern.md)
+- [Tổng hợp các câu hỏi phỏng vấn về thiết kế hệ thống]
+- [Tổng hợp các câu hỏi phỏng vấn về mô hình thiết kế]
 
 ### Frameworks
 
@@ -257,32 +256,32 @@ Ngoài ra, trang web [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-
 
 **Tổng hợp các điểm kiến thức/câu hỏi phỏng vấn**:
 
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Spring](./system-design/framework/spring/spring-knowledge-and-questions-summary.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về SpringBoot](./system-design/framework/spring/springboot-knowledge-and-questions-summary.md)
-- [Tổng hợp các chú thích thường dùng của Spring/Spring Boot](./system-design/framework/spring/spring-common-annotations.md)
-- [Getting Started with SpringBoot]()
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Spring]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về SpringBoot]
+- [Tổng hợp các chú thích thường dùng của Spring/Spring Boot]
+- [Getting Started with SpringBoot]
 
 **Giải thích chi tiết các điểm kiến thức quan trọng**:
 
-- [Giải thích về IoC & AOP](./system-design/framework/spring/ioc-and-aop.md)
-- [Giải thích về Spring Transactions](./system-design/framework/spring/spring-transaction.md)
-- [Giải thích về Design Patterns trong Spring](./system-design/framework/spring/spring-design-patterns-summary.md)
-- [Giải thích về nguyên lý tự động lắp ráp của SpringBoot](./system-design/framework/spring/spring-boot-auto-assembly-principles.md)
+- [Giải thích về IoC & AOP]
+- [Giải thích về Spring Transactions]
+- [Giải thích về Design Patterns trong Spring]
+- [Giải thích về nguyên lý tự động lắp ráp của SpringBoot]
 
 #### MyBatis
 
-[Tổng hợp các câu hỏi phỏng vấn về MyBatis](./system-design/framework/mybatis/mybatis-interview.md)
+[Tổng hợp các câu hỏi phỏng vấn về MyBatis]
 
 ### Security
 
 #### Authentication and Authorization
 
-- [Giải thích về các khái niệm cơ bản về xác thực ủy quyền](./system-design/security/basis-of-authority-certification.md)
-- [Giải thích về khái niệm cơ bản của JWT](./system-design/security/jwt-intro.md)
-- [Phân tích ưu nhược điểm của JWT và các giải pháp cho các vấn đề phổ biến](./system-design/security/advantages-and-disadvantages-of-jwt.md)
-- [Giải thích về SSO (Đăng nhập đơn lẻ)](./system-design/security/sso-intro.md)
-- [Giải thích về thiết kế hệ thống quyền](./system-design/security/design-of-authority-system.md)
-- [Tổng hợp các thuật toán mã hóa phổ biến](./system-design/security/encryption-algorithms.md)
+- [Giải thích về các khái niệm cơ bản về xác thực ủy quyền]
+- [Giải thích về khái niệm cơ bản của JWT]
+- [Phân tích ưu nhược điểm của JWT và các giải pháp cho các vấn đề phổ biến]
+- [Giải thích về SSO (Đăng nhập đơn lẻ)]
+- [Giải thích về thiết kế hệ thống quyền]
+- [Tổng hợp các thuật toán mã hóa phổ biến]
 
 #### Data Desensitization
 
@@ -290,94 +289,94 @@ Tách biệt dữ liệu nhạy cảm đề cập đến việc biến đổi d�
 
 #### Sensitive Word Filtering
 
-[Tổng hợp các giải pháp lọc từ ngữ nhạy cảm](./system-design/security/sentive-words-filter.md)
+[Tổng hợp các giải pháp lọc từ ngữ nhạy cảm]
 
 ### Scheduled Tasks
 
-[Giải thích về nhiệm vụ định kỳ của Java](./system-design/schedule-task.md)
+[Giải thích về nhiệm vụ định kỳ của Java]
 
 ### Web Real-Time Message Push
 
-[Giải thích về đẩy thông báo thời gian thực trên Web](./system-design/web-real-time-message-push.md)
+[Giải thích về đẩy thông báo thời gian thực trên Web]
 
 ## Distributed Systems
 
 ### Lý thuyết & thuật toán & giao thức
 
-- [Giải thích về lý thuyết CAP và lý thuyết BASE](./distributed-system/protocol/cap-and-base-theorem.md)
-- [Giải thích về thuật toán Paxos](./distributed-system/protocol/paxos-algorithm.md)
-- [Giải thích về thuật toán Raft](./distributed-system/protocol/raft-algorithm.md)
-- [Giải thích về giao thức Gossip](./distributed-system/protocol/gossip-protocl.md)
+- [Giải thích về lý thuyết CAP và lý thuyết BASE]
+- [Giải thích về thuật toán Paxos]
+- [Giải thích về thuật toán Raft]
+- [Giải thích về giao thức Gossip]
 
 ### RPC
 
-- [Tổng hợp kiến thức cơ bản về RPC](./distributed-system/rpc/rpc-intro.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Dubbo](./distributed-system/rpc/dubbo.md)
+- [Tổng hợp kiến thức cơ bản về RPC]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Dubbo]
 
 ### ZooKeeper
 
-- [Tổng hợp các khái niệm liên quan đến ZooKeeper (Cơ bản)](./distributed-system/distributed-process-coordination/zookeeper/zookeeper-intro.md)
-- [Tổng hợp các khái niệm liên quan đến ZooKeeper (Nâng cao)](./distributed-system/distributed-process-coordination/zookeeper/zookeeper-plus.md)
+- [Tổng hợp các khái niệm liên quan đến ZooKeeper (Cơ bản)]
+- [Tổng hợp các khái niệm liên quan đến ZooKeeper (Nâng cao)]
 
 ### API Gateway
 
-- [Tổng hợp kiến thức cơ bản về API Gateway](./distributed-system/api-gateway.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Spring Cloud Gateway](./distributed-system/spring-cloud-gateway-questions.md)
+- [Tổng hợp kiến thức cơ bản về API Gateway]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Spring Cloud Gateway]
 
 ### Distributed ID
 
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Distributed ID](./distributed-system/distributed-id.md)
-- [Hướng dẫn thiết kế Distributed ID](./distributed-system/distributed-id-design.md)
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Distributed ID]
+- [Hướng dẫn thiết kế Distributed ID]
 
 ### Distributed Lock
 
-- [Giới thiệu về khóa phân tán]()
-- [Tổng hợp các giải pháp thực hiện khóa phân tán phổ biến]()
+- [Giới thiệu về khóa phân tán]
+- [Tổng hợp các giải pháp thực hiện khóa phân tán phổ biến]
 
 ### Distributed Transactions
 
-[Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về giao dịch phân tán](./distributed-system/distributed-transaction.md)
+[Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về giao dịch phân tán]
 
 ## High Performance
 
 ### Tối ưu hóa cơ sở dữ liệu
 
-- [Tách biệt đọc/ghi và phân chia cơ sở dữ liệu](./high-performance/read-and-write-separation-and-library-subtable.md)
-- [Tách biệt dữ liệu nóng/lạnh](./high-performance/data-cold-hot-separation.md)
-- [Tổng hợp các phương pháp tối ưu hóa SQL phổ biến](./high-performance/sql-optimization.md)
-- [Giới thiệu về phân trang sâu (Deep Pagination) và khuyến nghị tối ưu hóa](./high-performance/deep-pagination-optimization.md)
+- [Tách biệt đọc/ghi và phân chia cơ sở dữ liệu]
+- [Tách biệt dữ liệu nóng/lạnh]
+- [Tổng hợp các phương pháp tối ưu hóa SQL phổ biến]
+- [Giới thiệu về phân trang sâu (Deep Pagination) và khuyến nghị tối ưu hóa]
 
 ### Load Balancing
 
-[Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về cân bằng tải](./high-performance/load-balancing.md)
+[Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về cân bằng tải]
 
 ### CDN
 
-[Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về CDN (Mạng phân phối nội dung)](./high-performance/cdn.md)
+[Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về CDN (Mạng phân phối nội dung)]
 
 ### Message Queues
 
-- [Tổng hợp kiến thức cơ bản về Message Queues](./high-performance/message-queue/message-queue.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Disruptor](./high-performance/message-queue/disruptor-questions.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về RabbitMQ](./high-performance/message-queue/rabbitmq-questions.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về RocketMQ](./high-performance/message-queue/rocketmq-questions.md)
-- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Kafka](./high-performance/message-queue/kafka-questions-01.md)
+- [Tổng hợp kiến thức cơ bản về Message Queues]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Disruptor]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về RabbitMQ]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về RocketMQ]
+- [Tổng hợp các điểm kiến thức và câu hỏi phỏng vấn về Kafka]
 
 ## High Availability
 
-[Hướng dẫn thiết kế hệ thống khả dụng cao](./high-availability/high-availability-system-design.md)
+[Hướng dẫn thiết kế hệ thống khả dụng cao]
 
 ### Redundancy Design
 
-[Giải thích về thiết kế dự phòng](./high-availability/redundancy.md)
+[Giải thích về thiết kế dự phòng]
 
 ### Rate Limiting
 
-[Giải thích về giới hạn lưu lượng dịch vụ](./high-availability/limit-request.md)
+[Giải thích về giới hạn lưu lượng dịch vụ]
 
 ### Timeout & Retry
 
-[Giải thích về hết thời gian chờ & thử lại](./high-availability/timeout-and-retry.md)
+[Giải thích về hết thời gian chờ & thử lại]
 
 ### Clustering
 

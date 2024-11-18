@@ -44,19 +44,44 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Go Backend", link: "/golang" },
-      { text: "Java Backend", link: "/java" },
-      { text: "Nodejs Backend", link: "/node" },
-      { text: "Java Interview", link: "/interview" },
+      { text: "Docs", link: "/docs" },
+      //       { text: "Go Backend", link: "/golang" },
+      //       { text: "Java Backend", link: "/java" },
+      //       { text: "Nodejs Backend", link: "/node" },
+      //       { text: "Java Interview", link: "/interview" },
+      {
+        text: "Backend",
+        items: [
+          { text: "Java", link: "/java" },
+          { text: "Nodejs", link: "/node" },
+          { text: "Go", link: "/golang" },
+        ],
+      },
+      {
+        text: "Frontend",
+        items: [
+          { text: "Manager", link: "/manager" },
+          { text: "Store", link: "/store" },
+          { text: "Buyer", link: "/buyer" },
+        ],
+      },
+      {
+        text: "Interview",
+        items: [
+          { text: "Java", link: "/interview" },
+          { text: "Nodejs", link: "/interview" },
+          { text: "Go", link: "/interview" },
+        ],
+      },
     ],
-
     sidebar: {
       "/interview/": [
         {
           text: "Chuẩn bị cho phỏng vấn",
+          collapsed: true,
           items: [
             {
-              text: "1. Hướng dẫn từng bước cách chuẩn bị cho các cuộc phỏng vấn Java",
+              text: "Hướng dẫn từng bước cách chuẩn bị cho các cuộc phỏng vấn Java",
               link: "/interview/interview-preparation/preparation-01",
             },
           ],
