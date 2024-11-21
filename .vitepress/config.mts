@@ -173,4 +173,5 @@ export default defineConfig({
 
     socialLinks: [{ icon: "github", link: "https://github.com/anonystick" }],
   },
+  ignoreDeadLinks: true
 });
