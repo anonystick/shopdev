@@ -92,7 +92,7 @@
 
 ### Các tính năng mới
 
-- **Java 8**：[Tổng hợp các tính năng mới của Java 8 ] 
+- **Java 8**：[Tổng hợp các tính năng mới của Java 8 ]
 - [Tổng hợp các tính năng mới thường dùng của Java8]
 - [Tổng quan về các tính năng mới của Java 9]
 - [Tổng quan về các tính năng mới của Java 10]
