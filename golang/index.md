@@ -20,11 +20,11 @@ const members = [
     ]
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/48472372?v=4',
+    avatar: 'https://avatars.githubusercontent.com/u/129947921?v=4',
     name: 'JunYue',
     title: 'Creator',
     links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' }
+      { icon: 'github', link: 'https://github.com/vietgs03' }
     ]
   },
 ]
