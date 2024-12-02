@@ -476,3 +476,353 @@ Trong ví dụ của chúng ta, bạn có thể sử dụng type assertion để
 - ```store.discount(.5)``` sẽ gọi method ```discount()``` của bất kỳ phần tử nào trong ```store``` có method này, nhờ vào type assertion.
 
 
+## Empty Interface.
+
+![alt text](./assets/basic11/empty2.png)
+![alt text](./assets/basic11/empty3.png)
+![alt text](./assets/basic11/empty4.png)
+
+- Tiếp theo chúng ta sẽ tìm hiểu về Empty Interface (```interface{}```) nó không chứa bất kỳ phương thức nào, nghĩa là "**mọi kiểu dữ liệu trong Go đều tương thích với empty interface**".
+
+```go
+    var temp interface {}
+```
+
+- Ở đây nó có thể lưu trữ **bất kỳ giá trị nào**, dù là kiểu dữ liệu nguyên thuỷ (int string float) hay phức tạp như struct slice.
+
+- Vậy nên Empty Interface khá hữu ích trong nhưng trường hợp mà không biết trước kiểu dữ liệu.
+
+- Cấu trúc bên trong của Empty interface.
+
+    - Khi một giá trị được lưu trữ trong ```interface{}```, nó thực sự là 1 cặp:
+    - Bao gồm: **Dynamic type** , **Dynamic value**
+
+```go
+    interface {} = (dynamic type,dynamic value)
+    // example 
+
+    var tmp interface{} = 42
+    // => tmp = {int , 42}
+```
+
+- Và 1 điều chú ý khi làm việc với Empty Interface. Dù cho Empty interface rất linh hoạt nhung việc lạm dụng nó có thể gây ra các vấn đề như :
+
+    - **Mất an toàn kiểu dữ liệu (Type safetye)**: Empty interface bỏ qua kiểm tra kiểu tại thời gian biên dịch (compile-time), dẫn đến lỗi runtime nếu type assertion thất bại.
+
+    - **Khó hiểu và khó bảo trì**: Vì các kiểu dữ liệu không được xác định rõ ràng nên có thể bạn sẽ mất nhiều thời gian để debug và kiểm tra nó.
+
+## Interface Embedding:
+
+Interface Embedding cho phép bạn Gộp nhiều interface nhỏ lại với nhau. Một trong những kỹ thuật để tổ chức và quản lý hành vi của methods liên quan mà không cần lặp lại mã nguồn.
+
+```go
+    type InterfaceA interface {
+        MethodA()
+    }
+
+    type InterfaceB interface {
+        MethodB()
+    }
+
+    type InterfaceC interface {
+        InterfaceA
+        InterfaceB
+        MethodC()
+    }
+```
+
+Example:
+
+**Đầu tiên định nghĩa interface.**
+```go
+    package main
+
+    import "fmt"
+
+    type Reader interface {
+        Read()
+    }
+
+    type Writer interface {
+        Write()
+    }
+
+    type ReadWriter interface {
+        Reader
+        Writer
+    }
+```
+
+**Sau đó tạo struct để implement Interface**
+
+
+```go
+    type File struct {
+        Name string
+    }
+
+    func (f File) Read() {
+        fmt.Println(f.Name, "is being read.")
+    }
+
+    func (f File) Write() {
+        fmt.Println(f.Name, "is being written.")
+    }
+```
+
+**Cuối cùng là sẽ được kết quả như này**
+
+```go
+    func Process(rw ReadWriter) {
+        rw.Read()
+        rw.Write()
+    }
+
+    func main() {
+        file := File{Name: "example.txt"}
+        Process(file) // File thực hiện ReadWriter, nên tương thích.
+    }
+```
+
+```csharp
+txt1.txt is being read.
+txt2.txt is being written.
+```
+
+Hoặc 1 ví dụ khác như sau.
+
+**Định nghĩa interface**
+```go
+    package main
+
+    import "fmt"
+
+    type Shape interface {
+        Area() float64
+    }
+
+    type Drawable interface {
+        Draw()
+    }
+
+    type Renderable interface {
+        Shape
+        Drawable
+        Description() string
+    }
+
+```
+
+**Cho Struct implement Interface**
+
+```go
+    type Circle struct {
+        Radius float64
+    }
+
+    // Implement method from shape
+    func (c Circle) Area() float64 {
+        return 3.14 * c.Radius * c.Radius
+    }
+
+    // Implement method Drawable
+    func (c Circle) Draw() {
+        fmt.Println("Drawing a circle with radius", c.Radius)
+    }
+
+    // And the last one is method of Renderrable
+    func (c Circle) Description() string {
+        return fmt.Sprintf("Circle with radius %.2f", c.Radius)
+    }
+```
+
+```go
+    func main() {
+        c := Circle{Radius: 5}
+
+        var r Renderable = c 
+        fmt.Println(r.Description())
+        fmt.Println("Area:", r.Area())
+        r.Draw()
+    }
+```
+
+Kết quả : 
+
+```vbnet
+Circle with radius 5.00
+Area: 78.50
+Drawing a circle with radius 5
+```
+
+**Điều quan trọng khi sử dụng Embedding Interface**
+
+- **Interface embedding** chỉ kế thừa **method** còn đối với **struct embedding** thì kế thừa **field** và **method**.
+
+## Dont Touch Interface Everything.
+
+Một việc sai lầm khi một số người lạm dụng Interface, Tạo interface cho mọi thứ - cho tất cả data type - cho tất cả hành vi ngay cả khi không cần thiết.
+
+```go
+    type Printer interface {
+        Print()
+    }
+
+    type ConcretePrinter struct{}
+
+    func (cp ConcretePrinter) Print() {
+        fmt.Println("Printing...")
+    }
+
+    func main() {
+        var p Printer = ConcretePrinter{}
+        p.Print()
+    }
+```
+- Ngay cả khi chỉ có 1 data type ConcretePrinter implement interface này.
+
+thay vì :
+```go
+    func Process(p Printer) {
+        p.Print()
+    }
+```
+Chúng ta chỉ cần:
+```go
+    func Process(p ConcretePrinter) {
+        p.Print()
+    }
+```
+
+**Chỉ nên sử dụng khi Mutiple Implementations**
+
+```go
+    type Notifier interface {
+        Notify(message string)
+    }
+
+    type EmailNotifier struct{}
+
+    func (e EmailNotifier) Notify(message string) {
+        fmt.Println("Sending email:", message)
+    }
+
+    type SMSNotifier struct{}
+
+    func (s SMSNotifier) Notify(message string) {
+        fmt.Println("Sending SMS:", message)
+    }
+
+    func SendAlert(n Notifier) {
+        n.Notify("Critical system alert!")
+    }
+
+    func main() {
+        email := EmailNotifier{}
+        sms := SMSNotifier{}
+
+        SendAlert(email)
+        SendAlert(sms)
+    }
+```
+
+Vậy nên việc lạm dụng Interface làm cho **mất tính đơn giản hoá.**
+
+- **Không lạm dụng**
+
+```go
+    type User struct {
+        Name  string
+        Email string
+    }
+
+    func SaveUser(user User) {
+        fmt.Println("User saved:", user.Name)
+    }
+```
+- **Lạm dụng**
+
+```go
+    type Savable interface {
+        Save()
+    }
+
+    type User struct {
+        Name  string
+        Email string
+    }
+
+    func (u User) Save() {
+        fmt.Println("User saved:", u.Name)
+    }
+
+    func Process(s Savable) {
+        s.Save()
+    }
+```
+- Trong trường hợp này vì chỉ có ```user``` nên việc sử dụng interface là không cần thiết.
+
+**Khó bảo trì và theo dõi**.
+- Tốn nhiều thời gian để debug và hiểu đường flow logic code.
+
+## Quy tắc vàng khi sử dụng Interface.
+- **Interface Nhỏ gọn và cụ thể**: Luôn luôn thiết kế 1 interface nhỏ gọn và tập chung vào 1 hành vi cụ thể.
+
+```go
+    // Không nên
+    type DataHandler interface {
+        Read()
+        Write()
+        Close()
+        Seek(offset int64, whence int) (int64, error)
+        Flush()
+    }
+```
+
+```go
+    // Nên
+    type Reader interface {
+        Read()
+    }
+
+    type Writer interface {
+        Write()
+    }
+
+    type Closer interface {
+        Close()
+    }
+
+    type Flusher interface {
+        Flush()
+    }
+
+    type Seeker interface {
+        Seek(offset int64, whence int) (int64, error)
+    }
+
+    // Với cách này bạn có thể gộp các interface nhỏ lại khi cần thiết
+    // type ReadWriter interface {
+    //     Reader
+    //     Writer
+    // }
+
+```
+
+- Tránh ```interface{}``` khi có thể:
+
+    - Vì nó làm mất an toàn sử liệu có thể gây ra lỗi runtime khá nhiều và việc debug rất cực.
+
+    - Chỉ sử dụng khi không biết trước kiểu dữ liệu cần xử lý.
+
+```go
+    func Sum(values []interface{}) int {
+        total := 0
+        for _, v := range values {
+            total += v.(int) // Cần type assertion, dễ gây lỗi runtime.
+        }
+        return total
+    }
+
+    // Nếu không type assertion sẽ gây lỗi runtime vì vậy việc đưa interface vào đây sẽ không nên khi đã biết trước kiểu dữ liệu
+```
