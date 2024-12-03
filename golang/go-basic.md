@@ -25,7 +25,7 @@ Chúng ta cần nói lại: **"Vui lòng tập bò, đến tập đi, rồi ti�
 8. [[Funtions and Pointer - Funtions] Tìm hiểu về Funtions and Pointer - Funtions](./basic-8.md)
 9. [[Funtions and Pointer - Pointer] Tìm hiểu về Funtions and Pointer - Pointer](./basic-9.md)
 10. [[GO OOP Methods and Interface ] Tìm hiểu về Methods and Interface - Methods](./basic-10.md)
-11 ...
+11. [[GO OOP Methods and Interface ] Tìm hiểu về Methods and Interface - Interface](./basic-11.md)
 
 ## Go Level 1 (Tập đi)
 
